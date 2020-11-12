@@ -1,0 +1,918 @@
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextrabold_italic';
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayextralight_italic';
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('raleway-semibold-webfont.woff2') format('woff2'),
+         url('raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('raleway-medium-webfont.woff2') format('woff2'),
+         url('raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('raleway-bold-webfont.woff2') format('woff2'),
+         url('raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaysemibold_italic';
+    src: url('raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('raleway-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway-thin-webfont.woff2') format('woff2'),
+         url('raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('raleway-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+#bloc_page
+{
+    width: 100%;
+    margin: 0px 22px 22px 22px;
+
+    background:  ;
+    height:1500px;
+    
+}
+body
+{
+	margin:0px;
+}
+
+
+header
+{
+display: flex;
+justify-content: ;
+}
+
+#logo
+{
+	font-size: 1.5em;
+}
+
+img
+{
+	width: 6em;
+}
+/*     */
+h2
+{
+font-size: 20px;
+font-family:ralewayextrabold;
+}
+h3
+{
+	font-family:ralewayextralight;
+	font-size:15px;
+}
+
+form
+{
+	
+	background-color: ;
+	margin: 0px 0px 0px 0px;
+	
+
+}
+
+
+.map i
+{
+	color: black;
+	text-align: center;
+	padding: 0px 5px 0px 0px;
+		
+}
+
+label
+{ 
+	border:2px solid #F2F2F2;
+    padding:3px 0px 9px 14px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2; 
+    margin: 0px 10px 0px 0px;
+   
+}
+
+
+.bouton
+{
+	border-radius:0px 10px 10px 0px; 
+	border:2px solid #0065FC;
+	height:36px;
+	color: white;
+	background-color: #0065FC;
+	font-family: ralewayextrabold;
+	font-size: 13px;
+	margin: 0px 0px 0px 0px;   
+	position: absolute; ;
+	top:162.7px;
+	left: 215px;
+	width: 100px;
+}
+
+
+input
+{
+	border: 1px solid #F2F2F2;
+	height:30px;
+	font-family: ralewayextrabold;
+	color:black;
+	width: 150px; 
+	margin:0px 0px 0px 0px;
+
+}
+
+
+ul i
+{
+ border: 2px solid #DEEBFF;
+ border-radius: 40px;
+ padding: 11px 11px 11px 11px;
+ font-size: 13.6px;
+ background-color: #DEEBFF;
+ margin:0px 10px 0px 0px;
+}
+li em :hover
+{
+ font-style: italic;
+ color: red; 
+}
+.filtres ul  :hover
+{
+ font-style: italic;
+ color: red; 
+}
+
+
+
+.filtres
+{
+	background-color: ;
+	width:2000px; 
+}
+
+
+.filtres span
+{
+	position:absolute;
+	top:230px;
+	left: 20px;
+	font-family:ralewayextrabold;
+}
+ 
+
+.filtres em
+{  
+
+	border-top:2px solid #F2F2F2;
+	border-right:2px solid #F2F2F2;
+	border-bottom:2px solid #F2F2F2;
+	border-radius: 25px;
+	padding-top:10px ;
+	padding-right: 10px ;
+	padding-bottom: 10px ;
+	font-size: 16px;
+	font-style: normal;
+	margin:0px 7px 0px 45px;
+	font-family:ralewayextrabold;
+}
+
+
+.filtres ul
+{
+ display: flex;
+ list-style-type: none;
+ padding-top: 11px;
+ 
+ 
+}
+.filtre li
+{
+
+}
+
+
+
+
+
+nav
+{
+display: inline-block;
+position:absolute;
+right: 30px;
+top:0px;
+}
+
+
+nav ul
+{
+
+ list-style-type: none;
+ display: flex;
+ width: 400px;
+ height:70px;
+ justify-content:flex-end; 
+ font-family: ralewayextralight ;
+ background:;
+ margin: 0px 0px;
+	
+	
+}
+
+nav li 
+{
+	margin-left: 30px;
+	display:flex;
+	background: 
+
+}
+nav span
+{
+	color:#0065FC 
+}
+nav .SS
+{
+	color:#0065FC; 
+	font-family:ralewayextrabold;
+}
+header li strong i /*Filtres :familial*/
+{
+
+    border: 2px solid #DEEBFF;
+	border-radius:25px;
+	padding: 12px 15px 12px 15px;
+	
+}
+header li strong  /*Filtres :familial*/
+{
+    border-top:2px solid #F2F2F2;
+	border-right:2px solid #F2F2F2;
+	border-bottom:2px solid #F2F2F2;
+	border-radius: 25px;
+	padding: 10px 10px 10px 0px;
+	font-size: 16px;
+	font-style: normal;
+	margin:0px 7px 0px 45px;
+	font-family:ralewayextrabold;
+
+}
+/*li mark i  /*Filtres :Economique
+{
+    border-radius: 25px;
+	padding: 13px 10px 11px 10px;
+	font-size: 13px;
+}
+
+/*li mark /*Filtres :Economique
+{
+ border-top: 1.5px solid #F2F2F2;
+	border-right:1.5px solid #F2F2F2;
+	border-bottom:1.5px solid #F2F2F2; 
+	border-radius: 25px;
+	padding:10px 10px 9px 10px;	
+	font-size: 16px;
+	font-style: normal;
+	background-color: white;
+	margin:0px 7px 0px 45px;
+	font-family:ralewayextrabold;
+}
+
+*/
+
+nav a
+{
+	font-size: 1em;
+	color: #181818;
+	padding-bottom: 2em;
+	margin-right: 1.5em;
+	text-decoration: none;
+	background: ;
+	justify-content:space-between;
+	padding: 20px 10px;
+}
+
+nav a:hover
+{
+	border-top: 3px solid #0065FC;
+}
+
+header p
+{
+	font-size: 17px;
+	font-family: ralewayextralight;
+	
+
+}
+header i 
+{
+	color:#0065FC;
+
+}
+.info i
+{
+	border:1px solid #F2F2F2;
+	border-radius: 25px;
+	margin: 0px 5px 5px 5px;
+	padding:6px 9px 6px 9px;
+	font-size: 10px;
+	background-color: white;
+
+}
+
+
+/*Section de page*/
+
+section
+{
+	background-color: #F2F2F2;
+	width: 60%;
+	height: 548px;
+	border:2px solid #F2F2F2;
+	border-radius:25px; 
+	margin: 32px 22px 22px 0px;
+}
+.conteneur1 img
+{
+
+	width: 220px;
+	height:100px;
+	
+	border-radius: 10px 10px 0px 0px;
+	
+	
+ }
+ .conteneur1 em
+ {
+ 	font-family: ralewayextralight;
+ 	font-style: normal;
+ 	font-size: 13px;
+ }
+.conteneur1 strong
+{
+font-family: ralewayextrabold;
+
+}
+
+
+.conteneur1
+{
+	display: flex;
+	text-align: center;
+
+	margin: 40px 10px 10px 10px; 
+		
+}
+.rangée1
+{
+	
+	border-radius: 10px 10px 0px 0px;	
+	
+
+}
+.conteneur1 figure
+{
+	border: 2px solid white;
+	border-radius: 10px 10px 10px 10px ;
+	margin: 50px 20px 0px;
+	padding: 5px 5px 5px 5px;
+	background-color: white;	
+	box-shadow: 1px 4px 10px grey;
+	font-family:ralewaysemibold;
+}
+.texte 
+{
+ position:absolute;
+ margin: 0px 0px 0px 20px;
+ font-family: ralewayextrabold;
+ font-size: 1.4em;
+
+}
+p span
+{
+	margin: 0px 0px 0px 10px;
+	font-size: 17px;
+}
+
+
+
+
+
+.chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
+{
+		text-align: left;
+
+}
+
+
+
+
+section i
+{
+	color: #0065FC;
+}
+
+span i
+{
+	color: #F2F2F2;
+}
+
+/*photo sur le coté*/
+aside
+{
+	display: flex;
+    width: 28%;
+    height: 550px;
+    background-color: #F2F2F2 ;
+    position: absolute;
+    right:0px;
+    left:920px; 
+    top:366px;
+    border-radius: 25px;	
+
+
+}
+
+aside img
+
+{
+	width: 110px;
+  height: 90px;
+  margin: 5px 2px 2px 5px ;
+  border-radius: 10px 0px 0px 10px;
+
+
+}
+
+aside p
+
+{
+ font-size: 1.4em;
+ 
+}
+aside strong
+{
+font-family: ralewayextrabold;
+}
+.texte2
+
+{
+ position:absolute;
+ margin: 40px 0px 20px 45px;
+ font-family: ralewayextrabold;
+ font-size: 1.4em;
+}
+.texte2 em
+{
+margin-left:90px;
+}
+
+.rangée1bis
+
+{
+margin: 50px 0px 20px 0px;
+}
+.rangée1bis em
+{
+	font-family:"ralewayextralight";
+	font-style:normal;
+}
+
+.coté1, .coté2, .coté3
+{
+display: flex;
+width:310px;
+height: 100px;
+box-shadow: 1px 4px 10px grey;
+
+
+
+border: 2px solid white;
+box-shadow: ;
+border-radius: 10px 10px 10px 10px;	
+margin: 50px 30px 0px 45px;
+background-color: white;
+}	
+
+.coté1 p, .coté2 p, .coté3 p
+{
+	font-size: 15px;
+	text-align: left;
+	margin: 13px 0px 0px 15px;
+
+}
+
+.coté1 em, .coté2 em, .coté3 em
+{
+	font-size: 12px;
+}
+
+.coté1 i, .coté2 i, .coté3 i
+{
+	margin:18px 0px 0px 0px;
+	text-align: left ;
+	font-size: 15px;
+	color: #0065FC ;
+}	
+p [alt="star"]
+{
+	color: #F2F2F2;
+}
+/*Section activité*/
+
+.activité
+{
+background-color:white ;
+border:2px solid white;
+
+width:1300px;
+height:550px;
+
+}
+.Marseille figure
+{
+	border: 0px solid white;
+	border-radius: 10px 10px 10px 10px ;
+	margin: 50px 43px 45px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: white;	
+	box-shadow: 1px 4px 10px grey;
+}
+
+
+
+.Marseille
+{
+display:flex;
+justify-content:flex-start;
+margin-top: 50px;
+}
+.activité img
+{
+ width: 290px;
+ height: 340px;
+ border-radius: 8px 8px 0px 0px ;
+
+}
+.Pomegues img
+{
+	width: 290px;
+    height:147px;
+}
+.Frioul img
+{
+width: 290px;
+height:95px;
+}
+.NDG img
+{
+    width: 290px;
+    height:110px;
+}
+.Longchamps img
+{
+    width: 290px;
+    height:132.5px;
+}
+
+.Marseille p
+{
+padding: 0px 10px 10px 10px;
+font-family: ralewayextrabold;
+}
+.Marseille h2
+{
+	margin-left: 0px
+}
+/*Footer*/
+footer
+{
+	width: 1460px;
+	height:200px;
+	background-color: #F2F2F2;
+	margin-top: 100px;
+	margin:60px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+
+	
+}
+.fin
+{
+	display:flex;
+
+}
+.colonne1, .colonne2, .colonne3			
+{
+	margin-right: 200px;
+	
+}
+.colonne1 li, .colonne2 li, .colonne3 li
+{
+list-style-type:none;
+margin-top:5px;
+font-size: 15px;
+font-family: ralewayextralight;
+}
+.colonne1 li strong, .colonne2 li strong, .colonne3 li strong
+{
+font-size: 17px;
+font-family: ralewayextrabold;
+}
+.fin ul:hover
+{
+color:blue;
+}
+
+/*Lien-Cliquable*/	
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 750px)
+{
+    /* Rédigez vos propriétés CSS ici */
+      @bloc_page
+      {
+      	display: flex;
+        height: 4900px;
+      	
+ 
+      }
+      header h2
+      {
+        background-color: green;
+        width: 20%;        
+      }
+
+      nav
+      {
+      	display: flex;
+      	flex-direction:column;
+      	
+
+      }
+      .filtres ul
+      {	
+        width:25%;
+        height: 200px;
+        word-wrap:break-word;
+        font-size: 40px;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        background-color: green;
+
+      }
+
+      .filtres li
+      {
+      	background-color: blue;
+      	font-size: 3px;
+      	margin-right: 20px;
+      	margin-bottom:10px;
+      	margin-left: 0px;
+      }
+      .info
+      {
+      	background-color: blue;
+      	width: 20%;
+      	
+
+      }
+      .info i
+      {
+      	margin-right: 10px;
+      }
+
+
+      nav
+      {
+      	display:block;
+      	float: left;
+      	background-color:yellow;
+      }
+
+      section
+      {
+      	height: 1500px;
+      	background-color: white;
+      	border:1px solid white;
+      	width:500px;
+      }
+      .conteneur1
+      {
+      	display: flex;
+        flex-direction:column;
+        width: 410px;
+      }
+      .conteneur1 img
+      {
+      	width: 270px;
+      }
+
+      .rangée1
+      {
+      	margin: 0px 40px 0px 40px;
+      }
+
+      .rangée2
+      {
+      	margin: 0px 40px 0px 40px;
+      }
+
+      .rangée3
+      {
+      	margin: 0px 40px 0px 40px;
+      }
+
+      .activité
+      {
+       width: 413px;
+       margin: 5px 0px 5px 0px;
+      }
+
+      .Marseille
+      {
+      	display: flex;
+        flex-direction:column;
+        margin: 0px 0px 0px 70px;
+      }
+
+      .Marseille img
+      {
+      	width: 300px;
+      	height: 140px;
+      }
+
+
+     
+
+
+
+
+
+
+
+     footer
+     {
+     	position: absolute;
+     	top: 5000px;
+     	height: 400px;
+     }
+     .fin
+     {
+     display: flex;
+      flex-direction:column;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
