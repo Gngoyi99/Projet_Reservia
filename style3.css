@@ -212,7 +212,7 @@ label
 	margin: 0px 0px 0px 0px;   
 	position: absolute; ;
 	top:162.7px;
-	left: 215px;
+	left: 233px;
 	width: 100px;
 }
 
@@ -223,9 +223,10 @@ input
 	height:30px;
 	font-family: ralewayextrabold;
 	color:black;
-	width: 150px; 
+	width: 125px; 
 	padding-left: 12px;
 	margin:0px 0px 0px 0px;
+	font-size:12px;
 }
 
 
