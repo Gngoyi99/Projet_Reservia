@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
-         url('raleway-extrabold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('raleway-extralight-webfont.woff2') format('woff2'),
-         url('raleway-extralight-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,14 +36,14 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
+    src: url('reserviaGKK/webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
          url('raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -226,15 +226,16 @@ input
 	width: 125px; 
 	padding-left: 12px;
 	margin:0px 0px 0px 0px;
-	font-size:12px;
+	font-size: 12px;
+
 }
 
 
-ul i
+ul i /*filtres Economique Romantique Animeaux autorisés*/
 {
  border: 2px solid #DEEBFF;
  border-radius: 40px;
- padding: 11px 11px 11px 11px;
+ padding: 13px 13px 13px 13px;
  font-size: 13.6px;
  background-color: #DEEBFF;
  margin:0px 10px 0px 0px;
@@ -266,6 +267,7 @@ li em :hover
 	left: 50px;
 	font-family:ralewayextrabold;
 }
+
  
 
 .filtres em
@@ -278,12 +280,11 @@ li em :hover
 	padding-top:10px ;
 	padding-right: 10px ;
 	padding-bottom: 10px ;
-	font-size: 16px;
+	font-size: 17px;
 	font-style: normal;
 	margin:0px 7px 0px 45px;
 	font-family:ralewayextrabold;
 }
-
 
 .filtres ul
 {
@@ -348,7 +349,7 @@ header li strong i /*Filtres :familial*/
 
     border: 2px solid #DEEBFF;
 	border-radius:25px;
-	padding: 12px 15px 12px 15px;
+	padding: 13px 15px 12px 15px;
 	
 }
 header li strong  /*Filtres :familial*/
@@ -358,7 +359,7 @@ header li strong  /*Filtres :familial*/
 	border-bottom:2px solid #F2F2F2;
 	border-radius: 25px;
 	padding: 10px 10px 10px 0px;
-	font-size: 16px;
+	font-size: 17px;
 	font-style: normal;
 	margin:0px 7px 0px 45px;
 	font-family:ralewayextrabold;
