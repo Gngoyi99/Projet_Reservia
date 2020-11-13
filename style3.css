@@ -127,6 +127,8 @@
 {
     width: 100%;
     margin: 0px 22px 22px 22px;
+    padding:0px 20px 0px 30px;
+    
 
     background:  ;
     height:1500px;
@@ -135,6 +137,9 @@
 body
 {
 	margin:0px;
+
+	
+	
 }
 
 
@@ -178,8 +183,9 @@ form
 .map i
 {
 	color: black;
-	text-align: center;
-	padding: 0px 5px 0px 0px;
+	margin-right: 10px;
+	padding: 0px;
+	font-size:13px;
 		
 }
 
@@ -218,8 +224,8 @@ input
 	font-family: ralewayextrabold;
 	color:black;
 	width: 150px; 
+	padding-left: 12px;
 	margin:0px 0px 0px 0px;
-
 }
 
 
@@ -237,10 +243,10 @@ li em :hover
  font-style: italic;
  color: red; 
 }
-.filtres ul  :hover
+.filtres li  :hover
 {
  font-style: italic;
- color: red; 
+ color: #0065FC; 
 }
 
 
@@ -255,8 +261,8 @@ li em :hover
 .filtres span
 {
 	position:absolute;
-	top:230px;
-	left: 20px;
+	top:243px;
+	left: 50px;
 	font-family:ralewayextrabold;
 }
  
@@ -328,7 +334,8 @@ nav li
 }
 nav span
 {
-	color:#0065FC 
+	color:#0065FC; 
+
 }
 nav .SS
 {
@@ -388,18 +395,27 @@ nav a
 	text-decoration: none;
 	background: ;
 	justify-content:space-between;
-	padding: 20px 10px;
+	padding: 20px 20px 20px 40px;
+	background-color: ;
 }
 
-nav a:hover
+nav ul:hover 
+{
+	border-top: 3px solid white;
+}
+.bleu
 {
 	border-top: 3px solid #0065FC;
+	text-align: center;
 }
+
+
 
 header p
 {
 	font-size: 17px;
 	font-family: ralewayextralight;
+
 	
 
 }
@@ -407,6 +423,10 @@ header i
 {
 	color:#0065FC;
 
+}
+.info
+{
+	margin-top:50px;
 }
 .info i
 {
@@ -434,7 +454,7 @@ section
 .conteneur1 img
 {
 
-	width: 220px;
+	width: 222px;
 	height:100px;
 	
 	border-radius: 10px 10px 0px 0px;
@@ -474,7 +494,7 @@ font-family: ralewayextrabold;
 	border: 2px solid white;
 	border-radius: 10px 10px 10px 10px ;
 	margin: 50px 20px 0px;
-	padding: 5px 5px 5px 5px;
+	padding: 5px 2px 5px 5px;
 	background-color: white;	
 	box-shadow: 1px 4px 10px grey;
 	font-family:ralewaysemibold;
@@ -509,11 +529,15 @@ p span
 section i
 {
 	color: #0065FC;
+	font-size: 13px;
+	margin-top: 5px;
 }
 
 span i
 {
 	color: #F2F2F2;
+	font-size: 13px;
+	margin-top: 5px;
 }
 
 /*photo sur le coté*/
@@ -521,12 +545,12 @@ aside
 {
 	display: flex;
     width: 28%;
-    height: 550px;
+    height: 554px;
     background-color: #F2F2F2 ;
     position: absolute;
     right:0px;
-    left:920px; 
-    top:366px;
+    left:960px; 
+    top:404px;
     border-radius: 25px;	
 
 
@@ -608,9 +632,9 @@ background-color: white;
 
 .coté1 i, .coté2 i, .coté3 i
 {
-	margin:18px 0px 0px 0px;
+	margin:13px 0px 0px 0px;
 	text-align: left ;
-	font-size: 15px;
+	font-size: 10px;
 	color: #0065FC ;
 }	
 p [alt="star"]
@@ -689,35 +713,53 @@ footer
 	width: 1460px;
 	height:200px;
 	background-color: #F2F2F2;
-	margin-top: 100px;
+	
 	margin:60px 0px 0px 0px;
-	margin:0px 0px 0px 0px;
+	padding-left: 0px;
+	
 
 	
 }
 .fin
 {
 	display:flex;
+	margin-left: 0px;
+	
+
 
 }
 .colonne1, .colonne2, .colonne3			
 {
 	margin-right: 200px;
 	
+	
+	background-color: ;	
 }
+.colonne1 ul, .colonne2 ul, .colonne3 ul
+{
+	text-align: left;
+	padding-left: 54px;
+}	
 .colonne1 li, .colonne2 li, .colonne3 li
 {
 list-style-type:none;
-margin-top:5px;
+
 font-size: 15px;
 font-family: ralewayextralight;
+padding-top:5px;
+margin-top:5px;
+background-color: ;
+
+
 }
 .colonne1 li strong, .colonne2 li strong, .colonne3 li strong
 {
 font-size: 17px;
 font-family: ralewayextrabold;
+
+
 }
-.fin ul:hover
+.fin ul :hover
 {
 color:blue;
 }
@@ -742,7 +784,7 @@ a
       }
       header h2
       {
-        background-color: green;
+        background-color: yellow;
         width: 20%;        
       }
 
@@ -863,28 +905,9 @@ a
      }
      .fin
      {
-     display: flex;
+      display: flex;
       flex-direction:column;
      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -902,9 +925,86 @@ a
 }
 
 
+@media all and (min-width: 750px) and (max-width: 900px)
+{
+
+        header h2
+    {
+    	background-color: green;
+    }
+    .filtres span
+    {
+    	color:red;
+    	top: 210px;
+
+    }
+    .filtres em
+    {
+    	margin:0px 0px 0px 10px;
+    }
+    header li strong
+    {
+    	margin:0px 0px 0px 10px;
+    }
+    section
+    {
+    	width: 855px;
+	    height: 548px;
+    }
+    .activité
+    {
+    	width: 180px;
+        height: 140px;
+    }
+    .activité img
+    {
+        width: 180px;
+        height: 140px;
+    }
+    .Frioul img
+    {
+      width: 180px;
+      height: 160px;
+    }
+    .Longchamps img
+    {
+       width: 180px;
+      height: 160px;
+    }
+    .PNC img
+    {
+    	 width: 180px;
+        height: 122px;
+    }
+    .NDG img
+    {
+    	 width: 180px;
+        height: 122px;
+    }
+    footer
+    {
+    	
+    }
+    }
+     .colonne1, .colonne2, .colonne3			
+    {
+	
+    }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
