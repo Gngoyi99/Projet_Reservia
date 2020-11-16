@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
-         url('raleway-extrabold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('raleway-extralight-webfont.woff2') format('woff2'),
-         url('raleway-extralight-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,14 +36,14 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
+    src: url('reserviaGKK/webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
          url('raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -125,20 +125,20 @@
 
 #bloc_page
 {
-    width: 100%;
-    margin: 0px 22px 22px 22px;
-    padding:0px 20px 0px 30px;
+	width: 100%;
+    padding:0px 20px 0px 70px;
+    margin: 0 auto;
     
-
-    background:  ;
-    height:1500px;
-    
+     
+     
+ 
 }
+
 body
 {
-	margin:0px;
-
-	
+    width: 100%;
+    margin: 0px;
+	margin: 0 auto;
 	
 }
 
@@ -146,12 +146,13 @@ body
 header
 {
 display: flex;
-justify-content: ;
+
 }
 
 #logo
 {
 	font-size: 1.5em;
+
 }
 
 img
@@ -185,8 +186,7 @@ form
 	color: black;
 	margin-right: 10px;
 	padding: 0px;
-	font-size:13px;
-		
+	font-size:13px;		
 }
 
 label
@@ -195,8 +195,7 @@ label
     padding:3px 0px 9px 14px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2; 
-    margin: 0px 10px 0px 0px;
-   
+    margin: 0px 10px 0px 0px;  
 }
 
 
@@ -212,7 +211,7 @@ label
 	margin: 0px 0px 0px 0px;   
 	position: absolute; ;
 	top:162.7px;
-	left: 233px;
+	left: 248px;
 	width: 100px;
 }
 
@@ -227,7 +226,6 @@ input
 	padding-left: 12px;
 	margin:0px 0px 0px 0px;
 	font-size: 12px;
-
 }
 
 
@@ -240,39 +238,35 @@ ul i /*filtres Economique Romantique Animeaux autorisés*/
  background-color: #DEEBFF;
  margin:0px 10px 0px 0px;
 }
+
 li em :hover
 {
  font-style: italic;
  color: red; 
 }
+
 .filtres li  :hover
 {
  font-style: italic;
  color: #0065FC; 
 }
 
-
-
 .filtres
 {
 	background-color: ;
-	width:2000px; 
+	width:; 
 }
-
 
 .filtres span
 {
 	position:absolute;
-	top:243px;
-	left: 50px;
+	top:245px;
+	left: 70px;
 	font-family:ralewayextrabold;
 }
 
- 
-
 .filtres em
 {  
-
 	border-top:2px solid #F2F2F2;
 	border-right:2px solid #F2F2F2;
 	border-bottom:2px solid #F2F2F2;
@@ -291,40 +285,31 @@ li em :hover
  display: flex;
  list-style-type: none;
  padding-top: 11px;
- 
- 
 }
+
 .filtre li
 {
 
 }
 
-
-
-
-
 nav
 {
-display: inline-block;
+display: flex;
 position:absolute;
 right: 30px;
-top:0px;
-}
+top:0px; 
 
+}
 
 nav ul
 {
-
  list-style-type: none;
  display: flex;
  width: 400px;
  height:70px;
  justify-content:flex-end; 
  font-family: ralewayextralight ;
- background:;
- margin: 0px 0px;
-	
-	
+ margin: 0px 0px;	
 }
 
 nav li 
@@ -332,18 +317,20 @@ nav li
 	margin-left: 30px;
 	display:flex;
 	background: 
-
 }
+
 nav span
 {
 	color:#0065FC; 
 
 }
+
 nav .SS
 {
 	color:#0065FC; 
 	font-family:ralewayextrabold;
 }
+
 header li strong i /*Filtres :familial*/
 {
 
@@ -352,6 +339,7 @@ header li strong i /*Filtres :familial*/
 	padding: 13px 15px 12px 15px;
 	
 }
+
 header li strong  /*Filtres :familial*/
 {
     border-top:2px solid #F2F2F2;
@@ -363,7 +351,6 @@ header li strong  /*Filtres :familial*/
 	font-style: normal;
 	margin:0px 7px 0px 45px;
 	font-family:ralewayextrabold;
-
 }
 /*li mark i  /*Filtres :Economique
 {
@@ -452,13 +439,13 @@ section
 	border:2px solid #F2F2F2;
 	border-radius:25px; 
 	margin: 32px 22px 22px 0px;
+	display: flex;
 }
 .conteneur1 img
 {
 
 	width: 222px;
 	height:100px;
-	
 	border-radius: 10px 10px 0px 0px;
 	
 	
@@ -496,7 +483,7 @@ font-family: ralewayextrabold;
 	border: 2px solid white;
 	border-radius: 10px 10px 10px 10px ;
 	margin: 50px 20px 0px;
-	padding: 5px 2px 5px 5px;
+	padding: 5px 5px 5px 5px;
 	background-color: white;	
 	box-shadow: 1px 4px 10px grey;
 	font-family:ralewaysemibold;
@@ -511,8 +498,13 @@ font-family: ralewayextrabold;
 }
 p span
 {
-	margin: 0px 0px 0px 10px;
+	position:absolute;
+	top: 510px;
+	left:20px;
 	font-size: 17px;
+	width: 200px;
+	 
+
 }
 
 
@@ -524,8 +516,6 @@ p span
 		text-align: left;
 
 }
-
-
 
 
 section i
@@ -546,14 +536,11 @@ span i
 aside
 {
 	display: flex;
-    width: 28%;
-    height: 554px;
+    width: 45%;
+    height: 548px;
     background-color: #F2F2F2 ;
-    position: absolute;
-    right:0px;
-    left:960px; 
-    top:404px;
-    border-radius: 25px;	
+    border-radius: 25px;
+    margin-left: 65px;	
 
 
 }
@@ -562,9 +549,9 @@ aside img
 
 {
 	width: 110px;
-  height: 90px;
-  margin: 5px 2px 2px 5px ;
-  border-radius: 10px 0px 0px 10px;
+    height: 90px;
+    margin: 5px 2px 2px 5px ;
+    border-radius: 10px 0px 0px 10px;
 
 
 }
@@ -587,9 +574,12 @@ font-family: ralewayextrabold;
  font-family: ralewayextrabold;
  font-size: 1.4em;
 }
-.texte2 em
+.texte2 i
 {
-margin-left:90px;
+margin-left:75px;
+color: black;
+font-size: 25px;
+font-family: 
 }
 
 .rangée1bis
@@ -712,7 +702,7 @@ font-family: ralewayextrabold;
 /*Footer*/
 footer
 {
-	width: 1460px;
+	width: 100%;
 	height:200px;
 	background-color: #F2F2F2;
 	
@@ -732,7 +722,7 @@ footer
 }
 .colonne1, .colonne2, .colonne3			
 {
-	margin-right: 200px;
+	margin-right: 150px;
 	
 	
 	background-color: ;	
@@ -740,7 +730,7 @@ footer
 .colonne1 ul, .colonne2 ul, .colonne3 ul
 {
 	text-align: left;
-	padding-left: 54px;
+	padding-left: 73px;
 }	
 .colonne1 li, .colonne2 li, .colonne3 li
 {
@@ -797,16 +787,20 @@ a
       	
 
       }
+      .filtres span
+      {
+      	left: 85px;
+      }
       .filtres ul
       {	
         width:25%;
         height: 200px;
-        word-wrap:break-word;
         font-size: 40px;
         display: flex;
         flex-direction:column;
-        justify-content:flex-start;
         background-color: green;
+        padding-left: 0px;
+        margin-left: 0px;
 
       }
 
@@ -817,6 +811,10 @@ a
       	margin-right: 20px;
       	margin-bottom:10px;
       	margin-left: 0px;
+      	padding-left: 0px;
+
+
+
       }
       .info
       {
@@ -937,26 +935,61 @@ a
     .filtres span
     {
     	color:red;
-    	top: 210px;
-
+    	top: 235px;
     }
     .filtres em
     {
     	margin:0px 0px 0px 10px;
     }
+    .filtres ul
+    {
+        padding: 0px 0px 0px 75px; 
+    }
     header li strong
     {
     	margin:0px 0px 0px 10px;
     }
+    .info
+    {
+    	margin-top:0px; 
+    }
     section
     {
+    	margin-top: 0px;
     	width: 855px;
 	    height: 548px;
+
     }
+    aside
+    {
+     
+     left: 0px;
+     top: 850px;
+     background-color: white ;
+     height:100px;
+     width: 700px;
+     background-repeat: no-repeat;
+    }
+   
+    .rangée1bis
+    {
+    	display: flex;
+    	margin-left: 40px;
+
+    }
+    .coté1, .coté2, .coté3
+    {
+    	margin:20px 3px 0px 0px; 
+    	width:285px;
+        height: 100px;
+    }
+
+ 
     .activité
     {
+    	margin-top: 2000px;
     	width: 180px;
-        height: 140px;
+        height: 140px;            
     }
     .activité img
     {
@@ -987,10 +1020,10 @@ a
     {
     	
     }
-    }
+    
      .colonne1, .colonne2, .colonne3			
     {
-	
+	    margin-right:80px;
     }
 
 
