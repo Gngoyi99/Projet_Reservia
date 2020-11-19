@@ -119,10 +119,6 @@
 
 
 
-
-
-
-
 #bloc_page
 {
   width: 100%;
@@ -527,10 +523,6 @@ p span
 }
 
 
-
-
-
-
 .chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
 {
     text-align: left;
@@ -928,8 +920,8 @@ body
       }
       .texte3
       {
-        top: 1470px;
-        left: 0px;
+        top: 2060px;
+        left: 30px;
       }
       .DROITE:nth-child(2)
       {
@@ -945,7 +937,7 @@ body
       .texte2
       {
         width: 400px;
-        margin: 40px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
       }
       .coté1, .coté2, .coté3
       {
@@ -976,15 +968,16 @@ body
         width: 300px;
         height: 140px;
       }
-      .Photo_Marseille1 figure
+      .Photo_Marseille1
       {   
         margin-bottom: 0px;
+        
       }
-      .Pomegues figure
+      .Photo_Marseille2 .Pomegues, .Photo_Marseille3 .PNC, .Photo_Marseille4 .NDG  
       {
-        margin: 0px 0px;
+        margin-top: 0px;
       }
-
+     
 
      footer
      {
@@ -1184,11 +1177,3 @@ body
 
 
 }
-
-
-
-	
-
-
-
-
