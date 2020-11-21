@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
-         url('raleway-extrabold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('raleway-extralight-webfont.woff2') format('woff2'),
-         url('raleway-extralight-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,23 +36,23 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
-         url('raleway-semibold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('raleway-medium-webfont.woff2') format('woff2'),
-         url('raleway-medium-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-medium-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('raleway-bold-webfont.woff2') format('woff2'),
-         url('raleway-bold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'ralewayblack';
-    src: url('raleway-black-webfont.woff2') format('woff2'),
-         url('raleway-black-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-black-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -87,8 +87,8 @@
 
 @font-face {
     font-family: 'ralewaysemibold_italic';
-    src: url('raleway-semibolditalic-webfont.woff2') format('woff2'),
-         url('raleway-semibolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -99,8 +99,8 @@
 
 @font-face {
     font-family: 'ralewaythin';
-    src: url('raleway-thin-webfont.woff2') format('woff2'),
-         url('raleway-thin-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thin-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@
 
 @font-face {
     font-family: 'ralewaythin_italic';
-    src: url('raleway-thinitalic-webfont.woff2') format('woff2'),
-         url('raleway-thinitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -119,22 +119,23 @@
 
 
 
+
+
+
+
 #bloc_page
 {
-  width: 100%;
-    padding:0px 20px 0px 70px;
-    margin: 0 auto;
+  width: 1324px;
+  margin: 0 auto;
+  background-color:;
     
-     
-     
- 
+   
+
 }
 
 body
 {
-    width: 100%;
-    margin: 0px;
-  margin: 0 auto;
+  margin: 0;
   
 }
 
@@ -153,7 +154,24 @@ display: flex;
 
 img
 {
-  width: 6em;
+  width: 4em;
+  height: 80px;
+}
+.Menu
+{
+  display: flex;
+}
+.Menu img
+{
+  width: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Menu nav
+{
+  
+  width: 1202px;
+  justify-content:flex-end; 
 }
 /*     */
 h2
@@ -171,9 +189,6 @@ form
 {
   
   background-color: ;
-  margin: 0px 0px 0px 0px;
-  
-
 }
 
 
@@ -188,10 +203,11 @@ form
 label
 { 
   border:2px solid #F2F2F2;
-    padding:3px 0px 9px 14px;
+    padding:3px 0px 7px 14px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2; 
-    margin: 0px 10px 0px 0px;  
+    margin: 0px 0px 0px 0px; 
+
 }
 
 
@@ -199,22 +215,26 @@ label
 {
   border-radius:0px 10px 10px 0px; 
   border:2px solid #0065FC;
-  height:36px;
+  height:33px;
   color: white;
   background-color: #0065FC;
   font-family: ralewayextrabold;
   font-size: 13px;
   margin: 0px 0px 0px 0px;   
+
   position: absolute; ;
-  top:162.7px;
-  left: 248px;
+  top:202px;
+  left: 238px;
   width: 100px;
 }
 
 
 input
 {
-  border: 1px solid #F2F2F2;
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  border-left: 1px solid #F2F2F2;
+  border-right: 1px solid #F2F2F2;
   height:30px;
   font-family: ralewayextrabold;
   color:black;
@@ -254,11 +274,10 @@ li em :hover
 }
 
 .filtres span
-{
-  position:absolute;
-  top:245px;
-  left: 70px;
+{  
   font-family:ralewayextrabold;
+   margin-top: 12px;
+  font-size: 17px;
 }
 
 .filtres em
@@ -292,10 +311,6 @@ li em :hover
 nav
 {
 display: flex;
-position:absolute;
-right: 30px;
-top:0px; 
-
 }
 
 nav ul
@@ -307,13 +322,14 @@ nav ul
  justify-content:flex-end; 
  font-family: ralewayextralight ;
  margin: 0px 0px; 
+
 }
 
 nav li 
 {
   margin-left: 30px;
   display:flex;
-  background: 
+  
 }
 
 nav span
@@ -374,15 +390,15 @@ header li strong  /*Filtres :familial*/
 
 nav a
 {
-  font-size: 1em;
+  font-size: 15px;
   color: #181818;
-  padding-bottom: 2em;
-  margin-right: 1.5em;
   text-decoration: none;
   background: ;
   justify-content:space-between;
-  padding: 20px 20px 20px 40px;
-  background-color: ;
+  
+  margin-top: 35px;
+  padding: 10px;
+
 }
 
 nav ul:hover 
@@ -437,12 +453,21 @@ header i
 section
 {
 display: flex;
+width: 100%;
 
+
+}
+.GAUCHE h2
+{
+ margin: 40px 0px 0px 38px;
+ 
+ font-family: ralewayextrabold;
+ font-size: 1.4em;
 }
 .GAUCHE
 {
   background-color: #F2F2F2;
-  width: 880px;
+  width: 65%;
   height: 580px;
   border:2px solid #F2F2F2;
   border-radius:25px; 
@@ -452,9 +477,10 @@ display: flex;
 .conteneur1 img
 {
 
-  width: 225px;
+  width: 227px;
   height:100px;
   border-radius: 10px 10px 0px 0px;
+
   
   
  }
@@ -476,51 +502,29 @@ font-family: ralewayextrabold;
   display: flex;
   text-align: center;
 
-  margin: 40px 10px 10px 17px; 
+  margin: 0px 10px 10px 17px; 
     
 }
-.rangée1
-{
-  
-  border-radius: 10px 10px 0px 0px; 
 
-  
-
-}
 .conteneur1 figure
 {
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px ;
-  margin: 50px 20px 0px;
+  margin: 40px 20px 0px 15px;
   padding: 5px 5px 5px 5px;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
   font-family:ralewaysemibold;
 }
-.texte 
+.texte3 span
 {
- position:absolute;
- margin: 0px 0px 0px 20px;
+ 
+ margin: 400px 0px 0px 70px;
  font-family: ralewayextrabold;
- font-size: 1.4em;
-}
-.texte3 
-{
- position:absolute;
- margin: 0px 0px 0px 20px;
- font-family: ralewayextrabold;
- font-size: 1.4em;
- top:380px;
+ font-size: 1em;
 }
 
-p span
-{
-  position:absolute;
-  top: 510px;
-  left:20px;
-  font-size: 17px;
-  width: 200px;
-}
+
 
 
 .chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
@@ -548,7 +552,8 @@ span i
 .DROITE
 {
   display: flex;
-    width: 400px;
+  flex-direction:column;
+    width: 31%;
     height: 584px;
     background-color: #F2F2F2 ;
     border-radius: 25px;
@@ -561,9 +566,9 @@ span i
 .DROITE img
 
 {
-  width: 110px;
-    height: 90px;
-    margin: 5px 2px 2px 5px ;
+  width: 120px;
+    height: 120px;
+    margin: 3px 3px 3px 3px ;
     border-radius: 10px 0px 0px 10px;
 
 
@@ -579,15 +584,15 @@ span i
 {
 font-family: ralewayextrabold;
 }
-.texte2
+.DROITE h2
 
 {
- position:absolute;
- margin: 40px 0px 20px 45px;
+ margin: 40px 40px 0px 40px;
+ 
  font-family: ralewayextrabold;
  font-size: 1.4em;
 }
-.texte2 i
+.DROITE h2 i
 {
 margin-left:75px;
 color: black;
@@ -610,8 +615,8 @@ margin: 42px 15px 20px 0px;
 .coté1, .coté2, .coté3
 {
 display: flex;
-width:310px;
-height: 100px;
+width:330px;
+height: 125px;
 box-shadow: 1px 4px 10px grey;
 
 
@@ -619,7 +624,7 @@ box-shadow: 1px 4px 10px grey;
 border: 2px solid white;
 box-shadow: ;
 border-radius: 10px 10px 10px 10px; 
-margin: 50px 30px 0px 45px;
+margin: 0px 10px 30px 40px;
 background-color: white;
 } 
 
@@ -638,7 +643,7 @@ background-color: white;
 
 .coté1 i, .coté2 i, .coté3 i
 {
-  margin:13px 0px 0px 0px;
+  margin:40px 0px 0px 0px;
   text-align: left ;
   font-size: 10px;
   color: #0065FC ;
@@ -654,15 +659,24 @@ p [alt="star"]
 background-color:white ;
 border:2px solid white;
 
-width:1300px;
+width:100%;
 height:550px;
+display: flex;
+flex-direction:column;
 
+}
+.texte 
+{
+ margin: 60px 0px 0px 0px;
+ font-family: ralewayextrabold;
+ font-size: 1.4em;
+ 
 }
 .Marseille figure
 {
   border: 0px solid white;
   border-radius: 10px 10px 10px 10px ;
-  margin: 50px 43px 45px 0px;
+  margin: 30px 43px 45px 0px;
   padding: 0px 0px 0px 0px;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
@@ -674,33 +688,34 @@ height:550px;
 {
 display:flex;
 justify-content:flex-start;
-margin-top: 50px;
+
 }
+
 .activité img
 {
- width: 290px;
+ width: 296px;
  height: 340px;
  border-radius: 8px 8px 0px 0px ;
 
 }
 .Pomegues img
 {
-  width: 290px;
+  width: 300px;
     height:147px;
 }
 .Frioul img
 {
-width: 290px;
+width: 300px;
 height:95px;
 }
 .NDG img
 {
-    width: 290px;
+    width: 300px;
     height:110px;
 }
 .Longchamps img
 {
-    width: 290px;
+    width: 300px;
     height:132.5px;
 }
 
@@ -709,10 +724,6 @@ height:95px;
 padding: 0px 10px 10px 10px;
 font-family: ralewayextrabold;
 }
-.Marseille h2
-{
-  margin-left: 0px
-}
 /*Footer*/
 footer
 {
@@ -720,7 +731,7 @@ footer
   height:200px;
   background-color: #F2F2F2;
   
-  margin:60px 0px 0px 0px;
+  margin:20px 0px 0px 0px;
   padding-left: 0px;
   
 
@@ -808,7 +819,10 @@ body
         background-color: yellow;
         width: 55%;          
       }
+      .Menu nav
+      {
 
+      }
       nav
       {
         display: flex;
@@ -1011,29 +1025,37 @@ body
 {
     #bloc_page
 {
-  width: 100%;
-    padding:0px 20px 0px 70px;
+  width: 900px;
     margin: 0 auto;
-    
-     
-     
- 
+    padding: 2px;
+
+    }
+#logo
+{
+  width: 900px
 }
 
 body
 {
-    width: 100%;
     margin: 0px;
-  margin: 0 auto;
-  
-}
 
+}
+     .Menu img
+     {
+     
+     }
+    .Menu nav
+      {
+        justify-content:flex-start;
+        margin-left: 320px;
+      }
 
 
 
         header h2
     {
       background-color: green;
+      width:700px;
     }
     .filtres span
     {
@@ -1046,7 +1068,7 @@ body
     }
     .filtres ul
     {
-        padding: 0px 0px 0px 75px; 
+        padding: 0px 0px 0px 5px; 
     }
     header li strong
     {
@@ -1063,7 +1085,7 @@ body
     }
     .GAUCHE:nth-child(1)
     {
-      margin-top: 100px;
+      margin: 150px 10px 0px 20px;
       width: 855px;
       height: 548px;
       flex-direction:column;
@@ -1073,15 +1095,19 @@ body
     {
       margin-left:10px;
     }
+    .texte3 span
+    {
+      margin-top: 690px;
+    }
     .DROITE:nth-child(2)
     {
      
     
      background-color: white ;
      height:100px;
-     width: 700px;
-     background-repeat: no-repeat;
+     width:900px;
      margin: 20px 0px 50px 0px;
+     
      order:1;
 
     }
@@ -1099,63 +1125,106 @@ body
     {
       display: flex;
       margin-left: 0px;
+      
+      
+    }
+    .rangée1bis img
+    {
+      height: 120px
 
     }
-    .coté1, .coté2
+
+    
+    
+    .coté1
     {
-      margin:20px 3px 0px 0px; 
-      width:285px;
-        height: 100px;
+      margin:0px 0px 0px 15px; 
+      width:290px;
+      height: 125px;
+      padding: 3px;
+    }
+    .coté2
+    {
+      margin:0px 3px 0px 3px; 
+      width:320px;
+      height: 125px;
+      padding: 3px
     }
     .coté3
     {
-      margin:20px 3px 0px 0px; 
-      width:270px;
-      height: 100px;
+      margin:0px 0px 0px 0px; 
+      width: 290px;
+      height: 125px;
+      padding: 3px;
+      text-align: 
     }
+    .coté1 i
+    {
+       margin: 27px 0px 0px 0px;
+    }
+     .coté2 i
+     {
+       margin: 45px 0px 0px 0px;
+     }
+      .coté3 i
+      {
+       margin: 45px 0px 0px 0px;
+      }
 
     .activité h2
     {
       margin-left:31px;
-      margin-top:0px;
+      
+      width: 400px;
 
     }
     .activité
     {
 
       margin-top: 0px;
+      margin-left:20px ;
+      margin-right:10px;
       width: 180px;
         height: 140px;            
     }
     .activité img
     {
-        width: 180px;
+        width: 182px;
         height: 140px;
     }
     .Frioul img
     {
-      width: 180px;
+      width: 182px;
       height: 160px;
     }
     .Longchamps img
     {
-       width: 180px;
+       width: 182px;
       height: 160px;
     }
     .PNC img
     {
-       width: 180px;
+       width: 182px;
         height: 122px;
     }
     .NDG img
     {
-       width: 180px;
+       width: 182px;
         height: 122px;
+    }
+    .Photo_Marseille4
+    {
+     
+      width: 200px;
+    }
+    .Photo_Marseille4 figure
+    {
+      width: 182px;
     }
     footer
     {
       margin-top: 500px;
-      width: 1000px;
+      width: 900px;
     }
     
      .colonne1, .colonne2, .colonne3      
@@ -1177,3 +1246,4 @@ body
 
 
 }
+
