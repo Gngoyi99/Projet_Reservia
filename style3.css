@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
-         url('raleway-extrabold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('raleway-extralight-webfont.woff2') format('woff2'),
-         url('raleway-extralight-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,23 +36,23 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
-         url('raleway-semibold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('raleway-medium-webfont.woff2') format('woff2'),
-         url('raleway-medium-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-medium-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('raleway-bold-webfont.woff2') format('woff2'),
-         url('raleway-bold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'ralewayblack';
-    src: url('raleway-black-webfont.woff2') format('woff2'),
-         url('raleway-black-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-black-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -87,8 +87,8 @@
 
 @font-face {
     font-family: 'ralewaysemibold_italic';
-    src: url('raleway-semibolditalic-webfont.woff2') format('woff2'),
-         url('raleway-semibolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -99,8 +99,8 @@
 
 @font-face {
     font-family: 'ralewaythin';
-    src: url('raleway-thin-webfont.woff2') format('woff2'),
-         url('raleway-thin-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thin-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@
 
 @font-face {
     font-family: 'ralewaythin_italic';
-    src: url('raleway-thinitalic-webfont.woff2') format('woff2'),
-         url('raleway-thinitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -189,6 +189,8 @@ form
 {
   
   background-color: ;
+  display: flex;
+
 }
 
 
@@ -202,11 +204,18 @@ form
 
 label
 { 
-  border:2px solid #F2F2F2;
+
+    
+    border-top: 2px solid #F2F2F2 ;
+    border-left:2px solid #F2F2F2;
+    border-bottom:2px solid #F2F2F2;
     padding:3px 0px 7px 14px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2; 
     margin: 0px 0px 0px 0px; 
+   
+   
+   
 
 }
 
@@ -214,17 +223,16 @@ label
 .bouton
 {
   border-radius:0px 10px 10px 0px; 
-  border:2px solid #0065FC;
+  border:0px solid #0065FC;
   height:33px;
   color: white;
   background-color: #0065FC;
   font-family: ralewayextrabold;
   font-size: 13px;
-  margin: 0px 0px 0px 0px;   
+  margin: 18px 0px 0px 0px;   
 
-  position: absolute; ;
-  top:202px;
-  left: 238px;
+  
+
   width: 100px;
 }
 
@@ -234,14 +242,14 @@ input
   border-top: 1px solid #F2F2F2;
   border-bottom: 1px solid #F2F2F2;
   border-left: 1px solid #F2F2F2;
-  border-right: 1px solid #F2F2F2;
+  border-right: 0px solid #0065FC;
   height:30px;
   font-family: ralewayextrabold;
   color:black;
-  width: 125px; 
+  width: 130px; 
   padding-left: 12px;
-  margin:0px 0px 0px 0px;
   font-size: 12px;
+  
 }
 
 
@@ -522,6 +530,7 @@ font-family: ralewayextrabold;
  margin: 400px 0px 0px 70px;
  font-family: ralewayextrabold;
  font-size: 1em;
+ 
 }
 
 
@@ -755,7 +764,7 @@ footer
 .colonne1 ul, .colonne2 ul, .colonne3 ul
 {
   text-align: left;
-  padding-left: 73px;
+  padding-left: 60px;
 } 
 .colonne1 li, .colonne2 li, .colonne3 li
 {
@@ -995,9 +1004,7 @@ body
 
      footer
      {
-      position: absolute;
-      top: 8000px;
-      height: 400px;
+      margin-top: 8000px;
      }
      .fin
      {
@@ -1227,10 +1234,13 @@ body
       width: 900px;
     }
     
+    
      .colonne1, .colonne2, .colonne3      
     {
       margin-right:80px;
+      
     }
+    
 
 
 
