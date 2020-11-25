@@ -1045,6 +1045,7 @@ body
 body
 {
     margin: 0px;
+    width: 900px
 
 }
      .Menu img
@@ -1063,11 +1064,6 @@ body
     {
       background-color: green;
       width:700px;
-    }
-    .filtres span
-    {
-      color:red;
-      top: 235px;
     }
     .filtres em
     {
