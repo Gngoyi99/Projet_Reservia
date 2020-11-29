@@ -483,7 +483,7 @@ display: flex;
 background-color:;
 justify-content:space-between;
 flex-wrap:wrap;
-background-color: red;
+background-color:;
 
 
 
@@ -504,7 +504,7 @@ background-color: red;
   border:2px solid #F2F2F2;
   border-radius:25px; 
   margin: 32px 0px 0px 0px;
-  
+
   
 }
 .conteneur1 img
@@ -1363,3 +1363,18 @@ header
 
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
