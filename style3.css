@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
+    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
+         url('raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
+    src: url('raleway-extralight-webfont.woff2') format('woff2'),
+         url('raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,23 +36,23 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-semibold-webfont.woff') format('woff');
+    src: url('raleway-semibold-webfont.woff2') format('woff2'),
+         url('raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('webfontkit-20201026-152857/raleway-medium-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-medium-webfont.woff') format('woff');
+    src: url('raleway-medium-webfont.woff2') format('woff2'),
+         url('raleway-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('webfontkit-20201026-152857/raleway-bold-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-bold-webfont.woff') format('woff');
+    src: url('raleway-bold-webfont.woff2') format('woff2'),
+         url('raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'ralewayblack';
-    src: url('webfontkit-20201026-152857/raleway-black-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-black-webfont.woff') format('woff');
+    src: url('raleway-black-webfont.woff2') format('woff2'),
+         url('raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -87,8 +87,8 @@
 
 @font-face {
     font-family: 'ralewaysemibold_italic';
-    src: url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff') format('woff');
+    src: url('raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('raleway-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -99,8 +99,8 @@
 
 @font-face {
     font-family: 'ralewaythin';
-    src: url('webfontkit-20201026-152857/raleway-thin-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-thin-webfont.woff') format('woff');
+    src: url('raleway-thin-webfont.woff2') format('woff2'),
+         url('raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@
 
 @font-face {
     font-family: 'ralewaythin_italic';
-    src: url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff2') format('woff2'),
-         url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff') format('woff');
+    src: url('raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('raleway-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
