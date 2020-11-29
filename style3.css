@@ -130,7 +130,9 @@
   background-color:;
   padding-left: 40px;
   padding-right: 40px;
-    
+
+
+   
    
 
 }
@@ -145,12 +147,16 @@ body
 header
 {
 display: flex;
+width:auto;
+background-color:;
 
 }
 
 #logo
 {
   font-size: 1.5em;
+  background-color:;
+  width: 100%;
 
 }
 
@@ -162,19 +168,26 @@ img
 .Menu
 {
   display: flex;
+  justify-content:space-between;
+  background-color:;
+  width: 100%;
+ 
 }
 .Menu img
 {
   width: 120px;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: ;
 }
 .Menu nav
 {
   
-  width: 1202px;
   justify-content:flex-end; 
+  background-color:;
+  width: auto;
 }
+
 /*     */
 h2
 {
@@ -232,9 +245,6 @@ label
   font-family: ralewayextrabold;
   font-size: 13px;
   margin: 18px 0px 0px 0px;   
-
-  
-
   width: 100px;
 }
 
@@ -279,8 +289,8 @@ li em :hover
 
 .filtres
 {
-  background-color: ;
-  width:; 
+  background-color:;
+  width:70%; 
 }
 
 .filtres span
@@ -301,20 +311,27 @@ li em :hover
   padding-bottom: 10px ;
   font-size: 17px;
   font-style: normal;
-  margin:0px 7px 0px 45px;
+  
   font-family:ralewayextrabold;
+  background-color:;
+
 }
 
 .filtres ul
 {
  display: flex;
+ justify-content:space-between;
  list-style-type: none;
- padding-top: 11px;
+ flex-wrap:wrap;
+
+
 
 }
 
-.filtre li
+.filtres li
 {
+
+
 
 }
 
@@ -333,12 +350,15 @@ nav ul
  font-family: ralewayextralight ;
  margin: 0px 0px; 
 
+  
+
 }
 
 nav li 
 {
   margin-left: 30px;
-  display:flex;
+
+
   
 }
 
@@ -372,7 +392,6 @@ header li strong  /*Filtres :familial*/
   padding: 10px 10px 10px 0px;
   font-size: 17px;
   font-style: normal;
-  margin:0px 7px 0px 45px;
   font-family:ralewayextrabold;
 }
 /*li mark i  /*Filtres :Economique
@@ -458,10 +477,15 @@ header i
 
 
 /*Section de page*/
-section
+.hebergement
 {
 display: flex;
-width: 100%;
+background-color:;
+justify-content:space-between;
+flex-wrap:wrap;
+background-color: red;
+
+
 
 
 }
@@ -476,10 +500,11 @@ width: 100%;
 {
   background-color: #F2F2F2;
   width: 65%;
-  height: 580px;
+  height: auto;
   border:2px solid #F2F2F2;
   border-radius:25px; 
-  margin: 32px 22px 22px 0px;
+  margin: 32px 0px 0px 0px;
+  
   
 }
 .conteneur1 img
@@ -488,6 +513,7 @@ width: 100%;
   width: 227px;
   height:100px;
   border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 
   
   
@@ -509,8 +535,14 @@ font-family: ralewayextrabold;
 {
   display: flex;
   text-align: center;
+background-color: ;
+  margin: auto;
+  padding:auto;
+  justify-content:space-between;
+  
+  flex-wrap:wrap;
+  
 
-  margin: 0px 10px 10px 17px; 
     
 }
 
@@ -523,6 +555,8 @@ font-family: ralewayextrabold;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
   font-family:ralewaysemibold;
+
+
 }
 .texte3 span
 {
@@ -530,7 +564,15 @@ font-family: ralewayextrabold;
  margin: 400px 0px 0px 70px;
  font-family: ralewayextrabold;
  font-size: 1em;
- 
+}
+.rangée1, .rangée2, .rangée3
+{
+  background-color:;
+  margin: auto;
+
+
+  
+  
 }
 
 
@@ -539,6 +581,8 @@ font-family: ralewayextrabold;
 .chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
 {
     text-align: left;
+
+    
 
 }
 
@@ -562,13 +606,12 @@ span i
 {
   display: flex;
   flex-direction:column;
-    width: 31%;
-    height: 584px;
+    width: auto;
+    height: 600px;
     background-color: #F2F2F2 ;
     border-radius: 25px;
-    margin-left: 30px; 
-    margin-top: 32px; 
-
+    margin-left: 0px; 
+    margin-top: 32px;
 
 }
 
@@ -577,8 +620,12 @@ span i
 {
   width: 120px;
     height: 120px;
-    margin: 3px 3px 3px 3px ;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
+    background-color:;
 
 
 }
@@ -600,6 +647,7 @@ font-family: ralewayextrabold;
  
  font-family: ralewayextrabold;
  font-size: 1.4em;
+ background-color:;
 }
 .DROITE h2 i
 {
@@ -612,7 +660,9 @@ font-family:
 .rangée1bis
 
 {
-margin: 42px 15px 20px 0px;
+margin-top: 42px;
+margin-bottom:40px; 
+
 
 }
 .rangée1bis em
@@ -625,23 +675,23 @@ margin: 42px 15px 20px 0px;
 {
 display: flex;
 width:330px;
-height: 125px;
+height: 120px;
 box-shadow: 1px 4px 10px grey;
-
-
-
+padding: 3px;
 border: 2px solid white;
 box-shadow: ;
 border-radius: 10px 10px 10px 10px; 
-margin: 0px 10px 30px 40px;
-background-color: white;
+margin: 0px 40px 30px 40px;
+background-color:;
+
 } 
 
 .coté1 p, .coté2 p, .coté3 p
 {
   font-size: 15px;
   text-align: left;
-  margin: 13px 0px 0px 15px;
+  margin-left: 15px;
+  background-color:;
 
 }
 
@@ -652,7 +702,7 @@ background-color: white;
 
 .coté1 i, .coté2 i, .coté3 i
 {
-  margin:40px 0px 0px 0px;
+  margin-top:0px;
   text-align: left ;
   font-size: 10px;
   color: #0065FC ;
@@ -660,16 +710,17 @@ background-color: white;
 p [alt="star"]
 {
   color: #F2F2F2;
+
 }
 /*Section activité*/
 
 .activité
 {
-background-color:white ;
+background-color: ;
 border:2px solid white;
 
-width:100%;
-height:550px;
+width:auto;
+height:auto;
 display: flex;
 flex-direction:column;
 
@@ -685,26 +736,35 @@ flex-direction:column;
 {
   border: 0px solid white;
   border-radius: 10px 10px 10px 10px ;
-  margin: 30px 43px 45px 0px;
+  margin: 30px 0px 45px 0px;
   padding: 0px 0px 0px 0px;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
+  width: 300px;
 }
-
+.Photo_Marseille1, .Photo_Marseille2, .Photo_Marseille3, .Photo_Marseille4
+{
+  background-color: ;
+  width: auto;
+  margin: auto;
+  padding:auto;
+}
 
 
 .Marseille
 {
 display:flex;
-justify-content:flex-start;
+flex-wrap:wrap;
+justify-content:space-between;
 
 }
 
 .activité img
 {
- width: 296px;
+ width: 300px;
  height: 340px;
  border-radius: 8px 8px 0px 0px ;
+ object-fit: cover;
 
 }
 .Pomegues img
@@ -736,8 +796,8 @@ font-family: ralewayextrabold;
 /*Footer*/
 footer
 {
-  width: 100%;
-  height:200px;
+  width: auto;
+  height:auto;
   background-color: #F2F2F2;
   
   margin:20px 0px 0px 0px;
@@ -750,17 +810,25 @@ footer
 {
   display:flex;
   margin-left: 0px;
-  width: 1150px;
+  width: 75%;
   justify-content:space-between;
+  background-color: ;
   
 
 
 }
 
+.colonne1, .colonne2, .colonne3
+{
+  justify-content:flex-start; 
+  background-color:;
+  width: auto;
+}
+
 .colonne1 ul, .colonne2 ul, .colonne3 ul
 {
   text-align: left;
-  width: 200px
+  
 } 
 .colonne1 li, .colonne2 li, .colonne3 li
 {
@@ -801,10 +869,10 @@ a
 
 
 
-
-@media screen and (max-width: 750px)
+/** 
+@media screen and (max-width: 375px)
 {
-    /* Rédigez vos propriétés CSS ici */
+   Rédigez vos propriétés CSS ici
     #bloc_page
 {
     width: 100%;
@@ -878,7 +946,7 @@ body
       {
         margin: 0px;
       }
-      header li strong  /*Filtres :familial*/
+      header li strong  
       {
         margin: 0px;
       }
@@ -1022,21 +1090,15 @@ body
 
 
 
-
-
-
-
-
-
-
 }
+**/
+ 
 
-
-@media all and (min-width: 750px) and (max-width: 900px)
+ @media screen and (min-width: 899px) and (max-width: 900px) 
 {
     #bloc_page
-{
-  width: 900px;
+    {
+    width: 900px;
     margin: 0 auto;
     padding: 2px;
 
@@ -1061,12 +1123,13 @@ body
         justify-content:flex-start;
         margin-left: 320px;
       }
-
-
-
         header h2
     {
       width:700px;
+    }
+    .filtres 
+    {
+      width: 800px;
     }
     .filtres em
     {
@@ -1084,15 +1147,15 @@ body
     {
       margin-top:0px; 
     }
-    section
+    .hebergement
     {
       flex-direction:column;
       
     }
     .GAUCHE:nth-child(1)
     {
-      margin: 150px 10px 0px 20px;
-      width: 855px;
+      margin: 10px 0px 0px 0px;
+      width: 892px;
       height: 548px;
       flex-direction:column;
       order:2;
@@ -1109,10 +1172,11 @@ body
     {
      
     
-     background-color: white ;
-     height:100px;
-     width:900px;
-     margin: 20px 0px 50px 0px;
+     background-color: ;
+     height:300px;
+     width:896px;
+     margin: 20px 0px 0px 0px;
+     
      
      order:1;
 
@@ -1144,7 +1208,7 @@ body
     
     .coté1
     {
-      margin:0px 0px 0px 15px; 
+      margin:0px 0px 0px 0px; 
       width:290px;
       height: 125px;
       padding: 3px;
@@ -1159,28 +1223,37 @@ body
     .coté3
     {
       margin:0px 0px 0px 0px; 
-      width: 290px;
+      width: 270px;
       height: 125px;
       padding: 3px;
       text-align: 
     }
     .coté1 i
     {
-       margin: 27px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
     }
      .coté2 i
      {
-       margin: 45px 0px 0px 0px;
+       margin: 0px 0px 0px 0px;
      }
-      .coté3 i
-      {
-       margin: 45px 0px 0px 0px;
-      }
+    .coté3 i
+    {
+    margin: 0px 0px 0px 0px;
+    }
+    .coté1 p
+    {
+
+    }
+    p [alt="star"]
+    {
+    color: #F2F2F2;
+    margin-top: 0px;
+    }
+
 
     .activité h2
     {
       margin-left:31px;
-      
       width: 400px;
 
     }
@@ -1188,10 +1261,10 @@ body
     {
 
       margin-top: 0px;
-      margin-left:20px ;
-      margin-right:10px;
-      width: 180px;
-        height: 140px;            
+      width: auto;
+      height: auto;  
+      background-color: ;
+
     }
     .activité img
     {
@@ -1218,30 +1291,64 @@ body
        width: 182px;
         height: 122px;
     }
-    .Photo_Marseille4
+    .Marseille figure
     {
-     
-      width: 200px;
+    width:182px;
+    
     }
-    .Photo_Marseille4 figure
+    .Marseille
     {
-      width: 182px;
+      display: flex;
+      margin-left:0px;
+      
     }
     footer
     {
-      margin-top: 500px;
+      margin-top: 0px;
       width: 900px;
     }
-    
-    
      .colonne1, .colonne2, .colonne3      
     {
-      margin-right:80px;
       
     }
+  }
+
+
+@media screen and (max-width: 1524px)   
+ {
     
+   #bloc_page
+{
+  width: auto;
+  margin: 0 auto;
+  background-color:;
+  padding-left: auto;
+  padding-right: auto;
+}
+header
+{
+}
+.Menu
+{
+  
+}
+.Menu nav
+{ 
+ 
+
+}
 
 
+
+
+
+
+
+
+
+{
+
+}
 
 
 
@@ -1255,3 +1362,4 @@ body
 
 
 }
+    
