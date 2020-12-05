@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('raleway-extrabold-webfont.woff2') format('woff2'),
-         url('raleway-extrabold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'ralewayextrabold_italic';
-    src: url('raleway-extrabolditalic-webfont.woff2') format('woff2'),
-         url('raleway-extrabolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extrabolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'ralewayextralight';
-    src: url('raleway-extralight-webfont.woff2') format('woff2'),
-         url('raleway-extralight-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralight-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,23 +36,23 @@
 
 @font-face {
     font-family: 'ralewayextralight_italic';
-    src: url('raleway-extralightitalic-webfont.woff2') format('woff2'),
-         url('raleway-extralightitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-extralightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaysemibold';
-    src: url('raleway-semibold-webfont.woff2') format('woff2'),
-         url('raleway-semibold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('raleway-medium-webfont.woff2') format('woff2'),
-         url('raleway-medium-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-medium-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('raleway-bold-webfont.woff2') format('woff2'),
-         url('raleway-bold-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-bold-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'ralewayblack';
-    src: url('raleway-black-webfont.woff2') format('woff2'),
-         url('raleway-black-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-black-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -87,8 +87,8 @@
 
 @font-face {
     font-family: 'ralewaysemibold_italic';
-    src: url('raleway-semibolditalic-webfont.woff2') format('woff2'),
-         url('raleway-semibolditalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -99,8 +99,8 @@
 
 @font-face {
     font-family: 'ralewaythin';
-    src: url('raleway-thin-webfont.woff2') format('woff2'),
-         url('raleway-thin-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thin-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -108,8 +108,8 @@
 
 @font-face {
     font-family: 'ralewaythin_italic';
-    src: url('raleway-thinitalic-webfont.woff2') format('woff2'),
-         url('raleway-thinitalic-webfont.woff') format('woff');
+    src: url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff2') format('woff2'),
+         url('webfontkit-20201026-152857/raleway-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -141,6 +141,7 @@ body
 {
   margin: 0;
   
+  
 }
 
 
@@ -169,9 +170,13 @@ img
 {
   display: flex;
   justify-content:space-between;
+  flex-wrap:wrap;
   background-color:;
   width: 100%;
- 
+}
+.Menu2
+{
+  display:none;
 }
 .Menu img
 {
@@ -185,7 +190,11 @@ img
   
   justify-content:flex-end; 
   background-color:;
-  width: auto;
+  width: 350px;
+}
+.Menu nav ul
+{
+
 }
 
 /*     */
@@ -202,10 +211,7 @@ h3
 
 form
 {
-  
-  background-color: ;
   display: flex;
-
 }
 
 
@@ -260,8 +266,25 @@ input
   color:black;
   width: 130px; 
   padding-left: 12px;
-  font-size: 12px;
-  
+  font-size: 12px; 
+}
+
+form span 
+{
+background-color: #0065FC;
+border-radius: 10px 10px 10px 10px;
+width: 35px;
+height: 35px;
+margin-top: 17px;
+visibility:hidden;
+}
+form span i
+{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top:10px;
+  color: white;
+
 }
 
 
@@ -575,9 +598,6 @@ background-color: ;
   
 }
 
-
-
-
 .chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
 {
     text-align: left;
@@ -610,7 +630,7 @@ span i
     height: 600px;
     background-color: #F2F2F2 ;
     border-radius: 25px;
-    margin-left: 0px; 
+    margin-left: 40px; 
     margin-top: 32px;
 
 }
@@ -746,7 +766,7 @@ flex-direction:column;
 {
   background-color: ;
   width: auto;
-  margin: auto;
+  margin-left:0px ;
   padding:auto;
 }
 
@@ -756,6 +776,7 @@ flex-direction:column;
 display:flex;
 flex-wrap:wrap;
 justify-content:space-between;
+
 
 }
 
@@ -796,23 +817,20 @@ font-family: ralewayextrabold;
 /*Footer*/
 footer
 {
-  width: auto;
+ 
   height:auto;
   background-color: #F2F2F2;
-  
-  margin:20px 0px 0px 0px;
-  padding-left: 0px;
-  
-
-  
+  max-width: 1324px;
+  padding-left:0px; 
 }
 .fin
 {
+  margin: 0 auto;
   display:flex;
-  margin-left: 0px;
-  width: 75%;
+  max-width: 1000px;
   justify-content:space-between;
-  background-color: ;
+  background-color:;
+  margin: 0px;
   
 
 
@@ -825,9 +843,11 @@ footer
   width: auto;
 }
 
+
 .colonne1 ul, .colonne2 ul, .colonne3 ul
 {
   text-align: left;
+  padding:0px;
   
 } 
 .colonne1 li, .colonne2 li, .colonne3 li
@@ -869,230 +889,353 @@ a
 
 
 
-/** 
+
 @media screen and (max-width: 375px)
+/**https://meet.google.com/ohq-jqvj-zie**/
 {
-   Rédigez vos propriétés CSS ici
     #bloc_page
 {
-    width: 100%;
-    padding:0px 20px 0px 70px;
-    margin: 0 auto;
+   
+}
+#bloc_page
+{
+  width: 375px;
+ margin: 0 auto;
+ padding: 0px;
+ background-color: ;
+
 }
 
-body
-{
-    width: auto;
-    margin: 0px;
-  margin: 0 auto;
-  
-}
+      body
+      {
+      width: 375px;
+      margin: 0px;
+      margin: 0 auto;
+      background-color: ;
+      }
 
       @bloc_page
       {
         display: flex;
         height: 4900px;
-        
- 
       }
+
       header h2
       {
-        background-color: yellow;
-        width: 55%;          
+        background-color: ;
+        width: 310px;  
+        margin-top: 30px;
+        margin-left:auto;
+        margin-right: auto;
       }
-      .Menu nav
+      h3
       {
+        width: 310px;
+        margin-left:auto;
+        margin-right: auto;
 
+        background-color: ;
       }
-      nav
+      .Menu
+      {
+      flex-direction:column;
+      background-color: ;
+      display: none;
+      }
+      .Menu2
       {
         display: flex;
-        flex-direction:column;
+        flex-wrap:wrap;
+      }
+      .Menu2 .R
+      {
+        width: 187.5px;
+        height: 50px;
+      }
+      .R img
+      {
+        width:100px;
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 30px;
+      }
+      .SS2
+      {
+        width: 187.5px;
+        height: 50px;
+      }
+      .SS2 p
+      {
+        text-align: right;
+        padding-top: 10px;
+        padding-right: 30px;
+        font-family: ralewayextrabold;
+        color:#0065FC
+      }
+      .H
+      {
+       width: 187.5px; 
+        height: 40px;
+        border-bottom: 2px solid #0065FC;
+        padding-top: 10px;
+      }
+      .H p
+      {
+        text-align: center; 
+        color: #0065FC;  
+        font-size: 15px;
+
+      }
+      .A
+      {
+        width: 187.5px;
+        border-bottom: 2px solid #F2F2F2;
+        height: 40px;
+        padding-top: 10px;
+      }
+      .A p
+      {
+        text-align: center; 
+        font-size: 15px;
+      }
+
+
+      form
+      {
+        width: 310px;
+      margin-left:auto; 
+      margin-right:auto;
+      }
+      input
+      {
+        width: 205px;
       }
       .bouton
       {
-        top:187px;
+        display: none;
+      }
+      form span
+      {
+      visibility:visible;
+      }
+      .filtres
+      {
+        width: 310px;
+        margin-left: auto;
+        margin-right:auto;
       }
       .filtres span
       {
-        left: 70px;
+        width: 150px;
       }
+
       .filtres ul
       { 
-        width:90%;
-        height: 200px;
-        font-size: 40px;
-        display: flex;
-        flex-direction:;
-        background-color: green;
-        padding-left: 0px;
         margin-left: 0px;
-
+        background-color: ;
+        width: 310px;
+        height: 240px;
+        margin-left:0px;
+        padding-left: 0px;
 
       }
 
        .filtres li
       {
-        background-color: blue;
-        font-size: 3px;
-        width:200px ;
-        height: 100px;
+        background-color: ;
+        height: 50px;
+        margin-left:0px;
 
-        margin-right: 40px;
-        margin-bottom:10px;
-        padding-left: 0px;
-      }
-       .filtres em
-      {
-        margin: 0px;
-      }
-      header li strong  
-      {
-        margin: 0px;
+        justify-content:flex-start;
       }
 
       .info
+      { 
+        background-color: ;
+        width:310px;
+        margin-right:auto;
+        margin-left: auto;
+      }
+      .info p
+      {
+      font-size: 14px;
+      }
+      .hebergement
       {
         
-        width: 350px;
-        
-
       }
-      .info i
+      .conteneur1
       {
-        margin-right: 10px;
+       margin: 0px;
+       padding:0px;
       }
-
-
-      nav
-      {
-        display:block;
-        float: left;
-        background-color:yellow;
-      }
-      section
-      {
-        flex-direction:column;
-        margin-top: 50px;
-      }
-
+       
       .GAUCHE:nth-child(1)
-
       {
-        height: 1500px;
         background-color: white;
         border:1px solid white;
-        width:500px;
+        width:375px;
         flex-direction:column;
         order:2;
-        
+      }
 
-      }
-      .texte 
+      .GAUCHE h2
       {
-        margin: 0px;
+        background-color: ;
+        width: 310px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 18px; 
       }
+
       .conteneur1 
       {
         display: flex;
         flex-direction:column;
-        width: 305px;
+        width: 375px;
         margin: 0px;
-    
         background-color: ;
       }
+
       .conteneur1 img
       {
-        width: 275px;
-        
-
-
+        width: 305px;
       }
+
       .conteneur1 figure
       {
-        margin-left: 0px;
+        
         padding: 3px;
+        margin-top: 0px;
+        margin-bottom:20px ;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 305px;
+       
+        
       }
-      .texte3
+
+      .GAUCHE .texte3 span
       {
-        top: 2060px;
-        left: 30px;
+        margin-left: 35px;
+        margin-right: auto;
+        background-color: ;
+      }
+      .rangée1bis
+      {
+        margin-top: 0px;
       }
       .DROITE:nth-child(2)
       {
-      margin-top: 0px;
-      margin-left:0px;
-      order:1;
-      background-color: white;
+        width: 375px;
+        border-radius: 0px;
+        order:1;
+        background-color: #F2F2F2;
+        margin-left: auto; 
+        margin-right: auto;
       }
-      .rangée1bis 
-      {
 
-      }
-      .texte2
+
+      .DROITE h2
       {
-        width: 400px;
-        margin: 0px 0px 20px 0px;
+       background-color: ;
+       width: 310px;
+       margin-left:auto;
+       margin-right: auto;
+       margin-bottom: 20px;
+       font-size: 18px; 
       }
+
+      .DROITE h2 i
+      {
+        margin-left: 100px;
+        background-color: ;
+      }
+
       .coté1, .coté2, .coté3
       {
-      height: 140px;
-      margin: 10px 0px;
+       width: 300px;
+       height: 120px;
+       margin-left:auto;
+       margin-right:auto;
+       background-color: white;
       }
+
       .coté1 img, .coté2 img, .coté3 img
       {
         width: 120px;
-        height: 130px;
+        height: 120px;
       }
 
       .activité
       {
-       width: 343px;
-       margin-top: 2000px
+       background-color: ;
+       width: 370px;
+      }
+
+      .activité h2
+      {
+       background-color: ;
+       width: 310px;
+       margin-top: 40px;
+       margin-bottom: 20px;
+       margin-left:auto;
+       margin-right: auto;
+       font-size: 18px; 
       }
 
       .Marseille
       {
-        display: flex;
-        flex-direction:column;
-        margin: 0px;
+       display: flex;
+       flex-direction:column;
+       background-color: ;
       }
 
       .Marseille img
       {
-        width: 300px;
-        height: 140px;
+       width: 310px;
+       height: 140px;
       }
-      .Photo_Marseille1
+      .Marseille figure 
+      {
+        width: 310px;
+        margin-top: 0px;
+      }
+
+      .Photo_Marseille1, .Photo_Marseille2, .Photo_Marseille3, .Photo_Marseille4
       {   
-        margin-bottom: 0px;
-        
+       margin-left: auto; 
+       margin-right: auto; 
       }
+
       .Photo_Marseille2 .Pomegues, .Photo_Marseille3 .PNC, .Photo_Marseille4 .NDG  
       {
-        margin-top: 0px;
+       margin-left: auto; 
+       margin-right: auto;
       }
      
 
-     footer
-     {
-      margin-top: 8000px;
-     }
-     .fin
-     {
-      display: flex;
+      footer
+      {
+      height: auto;
+      background-color: #F2F2F2;
+      }
+      .fin
+      {
       flex-direction:column;
-     }
-
-
-
-
-
+      }
+      .colonne1 ul, .colonne2 ul, .colonne3 ul
+      {
+      width:310px ;
+      height:150px ;
+      margin-left:auto;
+      margin-right: auto;
+      }
 
 
 }
-**/
- 
+
 
  @media screen and (min-width: 899px) and (max-width: 900px) 
 {
@@ -1101,57 +1244,65 @@ body
     width: 900px;
     margin: 0 auto;
     padding: 2px;
-
     }
-#logo
-{
-  width: 900px
-}
 
-body
-{
+    #logo
+    {
+    width: 900px
+    }
+
+    body
+    {
     margin: 0px;
     width: 900px
-
-}
-     .Menu img
-     {
-     
-     }
-    .Menu nav
-      {
-        justify-content:flex-start;
-        margin-left: 320px;
-      }
-        header h2
-    {
-      width:700px;
     }
+
+    .Menu img
+    {
+     
+    }
+
+    .Menu nav
+    {
+    justify-content:flex-start;
+    margin-left: 320px;
+    }
+
+    header h2
+    {
+    width:700px;
+    }
+
     .filtres 
     {
       width: 800px;
     }
+
     .filtres em
     {
       margin:0px 0px 0px 10px;
     }
+
     .filtres ul
     {
         padding: 0px 0px 0px 5px; 
     }
+
     header li strong
     {
       margin:0px 0px 0px 10px;
     }
+
     .info
     {
       margin-top:0px; 
     }
+
     .hebergement
     {
       flex-direction:column;
-      
     }
+
     .GAUCHE:nth-child(1)
     {
       margin: 10px 0px 0px 0px;
@@ -1160,32 +1311,32 @@ body
       flex-direction:column;
       order:2;
     }
+
     .conteneur1
     {
       margin-left:10px;
     }
+
     .texte3 span
     {
       margin-top: 690px;
     }
+
     .DROITE:nth-child(2)
     {
-     
-    
      background-color: ;
      height:300px;
      width:896px;
      margin: 20px 0px 0px 0px;
-     
-     
      order:1;
-
     }
+
     .texte2
     {
      margin-top: 10px;
      margin-left: 32px;
     }
+
     .texte3
     {
       top:520px;
@@ -1195,55 +1346,56 @@ body
     {
       display: flex;
       margin-left: 0px;
-      
-      
     }
+
     .rangée1bis img
     {
-      height: 120px
-
+    height: 120px
     }
 
-    
-    
     .coté1
     {
-      margin:0px 0px 0px 0px; 
-      width:290px;
-      height: 125px;
-      padding: 3px;
+    margin:0px 0px 0px 0px; 
+    width:290px;
+    height: 125px;
+    padding: 3px;
     }
+
     .coté2
     {
-      margin:0px 3px 0px 3px; 
-      width:320px;
-      height: 125px;
-      padding: 3px
+    margin:0px 3px 0px 3px; 
+    width:320px;
+    height: 125px;
+    padding: 3px
     }
     .coté3
     {
-      margin:0px 0px 0px 0px; 
-      width: 270px;
-      height: 125px;
-      padding: 3px;
-      text-align: 
+    margin:0px 0px 0px 0px; 
+    width: 270px;
+    height: 125px;
+    padding: 3px;
+    text-align: 
     }
+
     .coté1 i
     {
-       margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     }
-     .coté2 i
-     {
-       margin: 0px 0px 0px 0px;
-     }
+
+    .coté2 i
+    {
+    margin: 0px 0px 0px 0px;
+    }
+
     .coté3 i
     {
     margin: 0px 0px 0px 0px;
     }
+
     .coté1 p
     {
-
     }
+
     p [alt="star"]
     {
     color: #F2F2F2;
@@ -1255,63 +1407,70 @@ body
     {
       margin-left:31px;
       width: 400px;
-
     }
+
     .activité
     {
-
-      margin-top: 0px;
-      width: auto;
-      height: auto;  
-      background-color: ;
-
+    margin-top: 0px;
+    width: auto;
+    height: auto;  
+    background-color: ;
     }
+
     .activité img
     {
-        width: 182px;
-        height: 140px;
+    width: 182px;
+    height: 140px;
     }
+
     .Frioul img
     {
-      width: 182px;
-      height: 160px;
+    width: 182px;
+    height: 160px;
     }
+
     .Longchamps img
     {
-       width: 182px;
-      height: 160px;
+    width: 182px;
+    height: 160px;
     }
+
     .PNC img
     {
-       width: 182px;
-        height: 122px;
+    width: 182px;
+    height: 122px;
     }
+
     .NDG img
     {
-       width: 182px;
-        height: 122px;
+    width: 182px;
+    height: 122px;
     }
+
     .Marseille figure
     {
     width:182px;
-    
     }
+
     .Marseille
     {
-      display: flex;
-      margin-left:0px;
-      
+    display: flex;
+    margin-left:0px;  
     }
+
     footer
     {
-      margin-top: 0px;
-      width: 900px;
+    margin-top: 0px;
+    width: 900px;
     }
+
      .colonne1, .colonne2, .colonne3      
     {
-      
+  
     }
-  }
+
+
+}
 
 
 @media screen and (max-width: 1524px)   
@@ -1337,6 +1496,7 @@ header
  
 
 }
+
 
 
 
