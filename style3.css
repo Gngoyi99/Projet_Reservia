@@ -502,15 +502,11 @@ header i
 /*Section de page*/
 .hebergement
 {
+max-width: 1324px;
 display: flex;
-background-color:;
 justify-content:space-between;
 flex-wrap:wrap;
 background-color:;
-
-
-
-
 }
 .GAUCHE h2
 {
@@ -526,14 +522,14 @@ background-color:;
   height: auto;
   border:2px solid #F2F2F2;
   border-radius:25px; 
-  margin: 32px 0px 0px 0px;
+  margin: 32px 25px 0px 0px;
 
   
 }
 .conteneur1 img
 {
 
-  width: 227px;
+  width: 230px;
   height:100px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
@@ -571,10 +567,11 @@ background-color: ;
 
 .conteneur1 figure
 {
+  width: 230px;  
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px ;
-  margin: 40px 20px 0px 15px;
-  padding: 5px 5px 5px 5px;
+  margin: 40px 15px 0px 15px;
+  padding: 3px;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
   font-family:ralewaysemibold;
