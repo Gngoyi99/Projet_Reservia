@@ -121,8 +121,6 @@
 
 
 
-
-<!--
 #bloc_page
 {
   width: 1324px;
@@ -130,16 +128,16 @@
   background-color:;
   padding-left: 40px;
   padding-right: 40px;
+
+
+   
+   
+
 }
--->
+
 body
 {
-  <!-- margin: 0; -->
-    width: 1324px;
-  margin: 0 auto;
-  background-color:;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin: 0;
   
   
 }
@@ -321,6 +319,10 @@ li em :hover
   font-family:ralewayextrabold;
    margin-top: 12px;
   font-size: 17px;
+  background-color: ;
+
+  
+  
 }
 
 .filtres em
@@ -346,6 +348,8 @@ li em :hover
  justify-content:space-between;
  list-style-type: none;
  flex-wrap:wrap;
+ background-color: ;
+ padding-left: 0px;
 
 
 
@@ -353,8 +357,6 @@ li em :hover
 
 .filtres li
 {
-
-
 
 }
 
@@ -481,6 +483,7 @@ header i
   background-color: ;
   display: flex;
   height: 30px;
+  m
 }
 .info p
 {
@@ -491,7 +494,7 @@ header i
 {
   border:1px solid #F2F2F2;
   border-radius: 25px;
-  margin: 0px 5px 5px 5px;
+  margin: 0px 5px 5px 0px;
   padding:6px 9px 6px 9px;
   font-size: 10px;
   background-color: white;
@@ -502,7 +505,7 @@ header i
 /*Section de page*/
 .hebergement
 {
-max-width: 1324px;
+width: auto;
 display: flex;
 justify-content:space-between;
 flex-wrap:wrap;
@@ -510,7 +513,7 @@ background-color:;
 }
 .GAUCHE h2
 {
- margin: 40px 0px 0px 38px;
+ margin: 40px 0px 0px 30px;
  
  font-family: ralewayextrabold;
  font-size: 1.4em;
@@ -522,7 +525,7 @@ background-color:;
   height: auto;
   border:2px solid #F2F2F2;
   border-radius:25px; 
-  margin: 32px 25px 0px 0px;
+  margin: 32px 38px 0px 0px;
 
   
 }
@@ -626,8 +629,7 @@ span i
     width: auto;
     height: 600px;
     background-color: #F2F2F2 ;
-    border-radius: 25px;
-    margin-left: 40px; 
+    border-radius: 25px; 
     margin-top: 32px;
 
 }
@@ -817,7 +819,7 @@ footer
  
   height:auto;
   background-color: #F2F2F2;
-  max-width: 1324px;
+  max-width: auto;
   padding-left:0px; 
 }
 .fin
@@ -828,6 +830,8 @@ footer
   justify-content:space-between;
   background-color:;
   margin: 0px;
+  padding-left: 40px;
+  
   
 
 
@@ -838,6 +842,7 @@ footer
   justify-content:flex-start; 
   background-color:;
   width: auto;
+
 }
 
 
@@ -1472,7 +1477,7 @@ a
 
 @media screen and (max-width: 1524px)   
  {
-    <!--
+    
    #bloc_page
 {
   width: auto;
@@ -1481,18 +1486,6 @@ a
   padding-left: auto;
   padding-right: auto;
 }
-     -->
- body
-     {
-     width: auto;
-  margin: 0 auto;
-  background-color:;
-  padding-left: auto;
-  padding-right: auto;
-     
-     
-     
-     }
 header
 {
 }
@@ -1532,6 +1525,21 @@ header
 
 }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
