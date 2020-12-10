@@ -122,7 +122,7 @@
 
 
 
-
+<!--
 #bloc_page
 {
   width: 1324px;
@@ -130,16 +130,16 @@
   background-color:;
   padding-left: 40px;
   padding-right: 40px;
-
-
-   
-   
-
 }
-
+-->
 body
 {
-  margin: 0;
+  <!-- margin: 0; -->
+    width: 1324px;
+  margin: 0 auto;
+  background-color:;
+  padding-left: 40px;
+  padding-right: 40px;
   
   
 }
@@ -1472,7 +1472,7 @@ a
 
 @media screen and (max-width: 1524px)   
  {
-    
+    <!--
    #bloc_page
 {
   width: auto;
@@ -1481,6 +1481,18 @@ a
   padding-left: auto;
   padding-right: auto;
 }
+     -->
+ body
+     {
+     width: auto;
+  margin: 0 auto;
+  background-color:;
+  padding-left: auto;
+  padding-right: auto;
+     
+     
+     
+     }
 header
 {
 }
