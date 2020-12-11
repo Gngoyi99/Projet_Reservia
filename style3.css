@@ -120,19 +120,13 @@
 
 
 
-
 #bloc_page
 {
-  width: 1324px;
+  max-width: 1354px;
   margin: 0 auto;
   background-color:;
-  padding-left: 40px;
-  padding-right: 40px;
-
-
-   
-   
-
+  padding-left: auto;
+  padding-right: auto;
 }
 
 body
@@ -189,6 +183,7 @@ img
   justify-content:flex-end; 
   background-color:;
   width: 350px;
+  flex-wrap:wrap;
 }
 .Menu nav ul
 {
@@ -210,6 +205,9 @@ h3
 form
 {
   display: flex;
+  background-color: ;
+width: auto;
+
 }
 
 
@@ -237,7 +235,11 @@ label
    
 
 }
+form p
+{
+  background-color: ;
 
+}
 
 .bouton
 {
@@ -247,9 +249,10 @@ label
   color: white;
   background-color: #0065FC;
   font-family: ralewayextrabold;
-  font-size: 13px;
-  margin: 18px 0px 0px 0px;   
-  width: 100px;
+  font-size: 11px;
+  margin: 18px 0px 0px 0px; 
+  padding: 0px;  
+  width: 80px;
 }
 
 
@@ -262,7 +265,7 @@ input
   height:30px;
   font-family: ralewayextrabold;
   color:black;
-  width: 130px; 
+  width: 120px; 
   padding-left: 12px;
   font-size: 12px; 
 }
@@ -310,16 +313,18 @@ li em :hover
 
 .filtres
 {
-  background-color:;
+  
   width:70%; 
 }
 
 .filtres span
 {  
+  
   font-family:ralewayextrabold;
    margin-top: 12px;
-  font-size: 17px;
+  font-size: 18px;
   background-color: ;
+  
 
   
   
@@ -336,7 +341,7 @@ li em :hover
   padding-bottom: 10px ;
   font-size: 17px;
   font-style: normal;
-  
+  width: 400px;
   font-family:ralewayextrabold;
   background-color:;
 
@@ -350,14 +355,11 @@ li em :hover
  flex-wrap:wrap;
  background-color: ;
  padding-left: 0px;
-
-
-
 }
 
 .filtres li
 {
-
+background-color: ;
 }
 
 nav
@@ -508,12 +510,12 @@ header i
 width: auto;
 display: flex;
 justify-content:space-between;
-flex-wrap:wrap;
+flex-wrap:wrap-reverse;
 background-color:;
 }
 .GAUCHE h2
 {
- margin: 40px 0px 0px 30px;
+ margin: 40px 0px 0px 20px;
  
  font-family: ralewayextrabold;
  font-size: 1.4em;
@@ -521,11 +523,11 @@ background-color:;
 .GAUCHE
 {
   background-color: #F2F2F2;
-  width: 65%;
+  width: auto;
   height: auto;
   border:2px solid #F2F2F2;
   border-radius:25px; 
-  margin: 32px 38px 0px 0px;
+  margin: 32px 25px 0px 0px;
 
   
 }
@@ -561,7 +563,7 @@ background-color: ;
   margin: auto;
   padding:auto;
   justify-content:space-between;
-  
+  margin-bottom: 40px;
   flex-wrap:wrap;
   
 
@@ -584,14 +586,15 @@ background-color: ;
 .texte3 span
 {
  
- margin: 400px 0px 0px 70px;
+ margin: 200px 0px 0px 20px;
  font-family: ralewayextrabold;
  font-size: 1em;
 }
 .rangée1, .rangée2, .rangée3
 {
   background-color:;
-  margin: auto;
+  margin-left:10px;
+  margin-right:10px;
 
 
   
@@ -614,7 +617,7 @@ background-color: ;
   margin-top: 5px;
 }
 
-span i
+.GAUCHE span i
 {
   color: #F2F2F2;
   font-size: 13px;
@@ -624,20 +627,21 @@ span i
 /*photo sur le coté*/
 .DROITE
 {
-  display: flex;
-  flex-direction:column;
+    display: flex;
+    flex-direction:column;
     width: auto;
-    height: 600px;
+    height: auto;
     background-color: #F2F2F2 ;
     border-radius: 25px; 
     margin-top: 32px;
+
 
 }
 
 .DROITE img
 
 {
-  width: 120px;
+    width: 120px;
     height: 120px;
     padding-bottom:0px;
     margin-bottom: 0px;
@@ -670,7 +674,7 @@ font-family: ralewayextrabold;
 }
 .DROITE h2 i
 {
-margin-left:75px;
+margin-left:100px;
 color: black;
 font-size: 25px;
 font-family: 
@@ -681,6 +685,8 @@ font-family:
 {
 margin-top: 42px;
 margin-bottom:40px; 
+padding-left: 10px;
+padding-right: 10px;
 
 
 }
@@ -700,8 +706,11 @@ padding: 3px;
 border: 2px solid white;
 box-shadow: ;
 border-radius: 10px 10px 10px 10px; 
-margin: 0px 40px 30px 40px;
-background-color:;
+margin-bottom:30px;
+background-color:white;
+margin-left:auto; 
+margin-right:auto;
+
 
 } 
 
@@ -710,8 +719,7 @@ background-color:;
   font-size: 15px;
   text-align: left;
   margin-left: 15px;
-  background-color:;
-
+  background-color:; 
 }
 
 .coté1 em, .coté2 em, .coté3 em
@@ -726,10 +734,9 @@ background-color:;
   font-size: 10px;
   color: #0065FC ;
 } 
-p [alt="star"]
+.DROITE p [alt="star"]
 {
-  color: #F2F2F2;
-
+  color:#F2F2F2;
 }
 /*Section activité*/
 
@@ -826,21 +833,15 @@ footer
 {
   margin: 0 auto;
   display:flex;
-  max-width: 1000px;
+  max-width: 1354px;
   justify-content:space-between;
-  background-color:;
-  margin: 0px;
-  padding-left: 40px;
+  flex-wrap:wrap;
   
-  
-
-
 }
 
 .colonne1, .colonne2, .colonne3
 {
   justify-content:flex-start; 
-  background-color:;
   width: auto;
 
 }
@@ -1078,7 +1079,7 @@ a
         border:1px solid white;
         width:375px;
         flex-direction:column;
-        order:2;
+        order:;
       }
 
       .GAUCHE h2
@@ -1132,7 +1133,7 @@ a
       {
         width: 375px;
         border-radius: 0px;
-        order:1;
+        order:;
         background-color: #F2F2F2;
         margin-left: auto; 
         margin-right: auto;
@@ -1507,7 +1508,6 @@ header
 
 
 
-
 {
 
 }
@@ -1525,33 +1525,3 @@ header
 
 }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
