@@ -124,33 +124,25 @@
 {
   max-width: 1354px;
   margin: 0 auto;
-  background-color:;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left:3%;
+  padding-right:3%;
 }
 
 body
 {
   margin: 0;
-  
-  
 }
-
 
 header
 {
 display: flex;
 width:auto;
-background-color:;
-
 }
 
 #logo
 {
   font-size: 1.5em;
-  background-color:;
   width: 100%;
-
 }
 
 img
@@ -158,33 +150,35 @@ img
   width: 4em;
   height: 80px;
 }
+
 .Menu
 {
   display: flex;
   justify-content:space-between;
   flex-wrap:wrap;
-  background-color:;
   width: 100%;
 }
+
 .Menu2
 {
   display:none;
 }
+
 .Menu img
 {
   width: 120px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: ;
 }
+
 .Menu nav
 {
   
   justify-content:flex-end; 
-  background-color:;
   width: 350px;
   flex-wrap:wrap;
 }
+
 .Menu nav ul
 {
 
@@ -204,10 +198,8 @@ h3
 
 form
 {
-  display: flex;
-  background-color: ;
+display: flex;
 width: auto;
-
 }
 
 
@@ -221,8 +213,6 @@ width: auto;
 
 label
 { 
-
-    
     border-top: 2px solid #F2F2F2 ;
     border-left:2px solid #F2F2F2;
     border-bottom:2px solid #F2F2F2;
@@ -230,15 +220,6 @@ label
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2; 
     margin: 0px 0px 0px 0px; 
-   
-   
-   
-
-}
-form p
-{
-  background-color: ;
-
 }
 
 .bouton
@@ -279,13 +260,13 @@ height: 35px;
 margin-top: 17px;
 visibility:hidden;
 }
+
 form span i
 {
   font-size: 15px;
   margin-left: 10px;
   margin-top:10px;
   color: white;
-
 }
 
 
@@ -313,21 +294,26 @@ li em :hover
 
 .filtres
 {
-  
   width:70%; 
+}
+
+.F
+{
+  padding-top:5px;
+  width:60px;
+}
+
+.F span:hover
+{ 
+font-style: normal;
+ color:black; 
 }
 
 .filtres span
 {  
-  
   font-family:ralewayextrabold;
-   margin-top: 12px;
-  font-size: 18px;
-  background-color: ;
-  
-
-  
-  
+   margin-top: 0px;
+  font-size: 18px;  
 }
 
 .filtres em
@@ -343,8 +329,6 @@ li em :hover
   font-style: normal;
   width: 400px;
   font-family:ralewayextrabold;
-  background-color:;
-
 }
 
 .filtres ul
@@ -353,13 +337,12 @@ li em :hover
  justify-content:space-between;
  list-style-type: none;
  flex-wrap:wrap;
- background-color: ;
  padding-left: 0px;
 }
 
 .filtres li
 {
-background-color: ;
+height: 55px;
 }
 
 nav
@@ -376,17 +359,11 @@ nav ul
  justify-content:flex-end; 
  font-family: ralewayextralight ;
  margin: 0px 0px; 
-
-  
-
 }
 
 nav li 
 {
-  margin-left: 30px;
-
-
-  
+  margin-left: 30px; 
 }
 
 nav span
@@ -403,11 +380,9 @@ nav .SS
 
 header li strong i /*Filtres :familial*/
 {
-
     border: 2px solid #DEEBFF;
   border-radius:25px;
   padding: 13px 15px 12px 15px;
-  
 }
 
 header li strong  /*Filtres :familial*/
@@ -447,18 +422,16 @@ nav a
   font-size: 15px;
   color: #181818;
   text-decoration: none;
-  background: ;
   justify-content:space-between;
-  
   margin-top: 35px;
   padding: 10px;
-
 }
 
 nav ul:hover 
 {
   border-top: 3px solid white;
 }
+
 .bleu
 {
   border-top: 3px solid #0065FC;
@@ -471,27 +444,25 @@ header p
 {
   font-size: 17px;
   font-family: ralewayextralight;
-
-  
-
 }
+
 header i 
 {
   color:#0065FC;
-
 }
+
 .info
 {
-  background-color: ;
   display: flex;
   height: 30px;
-  m
 }
+
 .info p
 {
   margin-top: 2px;
   margin-left: 5px;
 }
+
 .info i
 {
   border:1px solid #F2F2F2;
@@ -500,7 +471,6 @@ header i
   padding:6px 9px 6px 9px;
   font-size: 10px;
   background-color: white;
-
 }
 
 
@@ -511,15 +481,15 @@ width: auto;
 display: flex;
 justify-content:space-between;
 flex-wrap:wrap-reverse;
-background-color:;
 }
+
 .GAUCHE h2
 {
- margin: 40px 0px 0px 20px;
- 
+ margin: 40px 0px 0px 55px;
  font-family: ralewayextrabold;
  font-size: 1.4em;
 }
+
 .GAUCHE
 {
   background-color: #F2F2F2;
@@ -527,52 +497,44 @@ background-color:;
   height: auto;
   border:2px solid #F2F2F2;
   border-radius:25px; 
-  margin: 32px 25px 0px 0px;
-
-  
+  margin: 32px 0px 0px 0px;
 }
+
 .conteneur1 img
 {
-
-  width: 230px;
+  width: 240px;
   height:100px;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
-
-  
-  
  }
+
  .conteneur1 em
  {
   font-family: ralewayextralight;
   font-style: normal;
   font-size: 13px;
  }
+
 .conteneur1 strong
 {
 font-family: ralewayextrabold;
-
 }
-
 
 .conteneur1
 {
   display: flex;
   text-align: center;
-background-color: ;
   margin: auto;
-  padding:auto;
   justify-content:space-between;
   margin-bottom: 40px;
-  flex-wrap:wrap;
-  
-
-    
+  flex-wrap:wrap;  
+  margin-left: 30px;
+  margin-right:30px;  
 }
 
 .conteneur1 figure
 {
-  width: 230px;  
+  width: 240px;  
   border: 2px solid white;
   border-radius: 10px 10px 10px 10px ;
   margin: 40px 15px 0px 15px;
@@ -580,35 +542,31 @@ background-color: ;
   background-color: white;  
   box-shadow: 1px 4px 10px grey;
   font-family:ralewaysemibold;
-
-
 }
+
+.GAUCHE figcaption
+{
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
 .texte3 span
 {
- 
- margin: 200px 0px 0px 20px;
+ margin: 200px 0px 0px 55px;
  font-family: ralewayextrabold;
  font-size: 1em;
 }
+
 .rangée1, .rangée2, .rangée3
 {
-  background-color:;
-  margin-left:10px;
-  margin-right:10px;
-
-
-  
-  
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .chambre1, .chambre2, .chambre3, .chambre4, .chambre5, .chambre6
 {
     text-align: left;
-
-    
-
 }
-
 
 .GAUCHE i
 {
@@ -634,62 +592,66 @@ background-color: ;
     background-color: #F2F2F2 ;
     border-radius: 25px; 
     margin-top: 32px;
-
-
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .DROITE img
-
 {
     width: 120px;
     height: 120px;
     padding-bottom:0px;
     margin-bottom: 0px;
-    
     border-radius: 10px 0px 0px 10px;
     object-fit: cover;
-    background-color:;
-
-
 }
 
 .DROITE p
-
 {
  font-size: 1.4em;
- 
 }
+
 .DROITE strong
 {
 font-family: ralewayextrabold;
 }
-.DROITE h2
 
+.DROITE h2
 {
- margin: 40px 40px 0px 40px;
- 
+ margin: 40px 0px 0px 0px;
  font-family: ralewayextrabold;
  font-size: 1.4em;
- background-color:;
 }
-.DROITE h2 i
+
+.titre
 {
-margin-left:100px;
-color: black;
-font-size: 25px;
-font-family: 
+  display: flex;
+  justify-content:space-between;
+  width:auto;
+}
+
+.PP
+{
+  padding-left: 40px;
+}
+.chartline
+{
+  width:auto;
+  padding-right: 40px;
+  margin-top:40px;
+}
+
+.chartline i
+{
+  font-size: 25px
 }
 
 .rangée1bis
-
 {
 margin-top: 42px;
 margin-bottom:40px; 
-padding-left: 10px;
-padding-right: 10px;
-
-
 }
+
 .rangée1bis em
 {
   font-family:"ralewayextralight";
@@ -704,22 +666,26 @@ height: 120px;
 box-shadow: 1px 4px 10px grey;
 padding: 3px;
 border: 2px solid white;
-box-shadow: ;
-border-radius: 10px 10px 10px 10px; 
+border-radius:10px 10px 10px 10px; 
 margin-bottom:30px;
 background-color:white;
 margin-left:auto; 
 margin-right:auto;
-
-
 } 
 
-.coté1 p, .coté2 p, .coté3 p
+.coté1 figcaption, .coté2 figcaption, .coté3 figcaption
 {
   font-size: 15px;
   text-align: left;
   margin-left: 15px;
-  background-color:; 
+  margin-top: 15px; 
+  display: flex;
+}
+
+.textecoté
+{
+padding-top:10px;
+padding-left:10px;
 }
 
 .coté1 em, .coté2 em, .coté3 em
@@ -729,11 +695,12 @@ margin-right:auto;
 
 .coté1 i, .coté2 i, .coté3 i
 {
-  margin-top:0px;
+  margin-top:43px;
   text-align: left ;
   font-size: 10px;
   color: #0065FC ;
 } 
+
 .DROITE p [alt="star"]
 {
   color:#F2F2F2;
@@ -742,22 +709,21 @@ margin-right:auto;
 
 .activité
 {
-background-color: ;
 border:2px solid white;
-
 width:auto;
 height:auto;
 display: flex;
 flex-direction:column;
-
 }
+
 .texte 
 {
- margin: 60px 0px 0px 0px;
+ margin-top: 60px;
+ margin-left:0px;
  font-family: ralewayextrabold;
  font-size: 1.4em;
- 
 }
+
 .Marseille figure
 {
   border: 0px solid white;
@@ -768,22 +734,17 @@ flex-direction:column;
   box-shadow: 1px 4px 10px grey;
   width: 300px;
 }
+
 .Photo_Marseille1, .Photo_Marseille2, .Photo_Marseille3, .Photo_Marseille4
 {
-  background-color: ;
-  width: auto;
-  margin-left:0px ;
-  padding:auto;
+  width: auto; 
 }
-
 
 .Marseille
 {
 display:flex;
 flex-wrap:wrap;
 justify-content:space-between;
-
-
 }
 
 .activité img
@@ -792,23 +753,26 @@ justify-content:space-between;
  height: 340px;
  border-radius: 8px 8px 0px 0px ;
  object-fit: cover;
-
 }
+
 .Pomegues img
 {
   width: 300px;
     height:147px;
 }
+
 .Frioul img
 {
 width: 300px;
 height:95px;
 }
+
 .NDG img
 {
     width: 300px;
     height:110px;
 }
+
 .Longchamps img
 {
     width: 300px;
@@ -826,7 +790,7 @@ footer
  
   height:auto;
   background-color: #F2F2F2;
-  max-width: auto;
+  max-width: 100%;
   padding-left:0px; 
 }
 .fin
@@ -843,35 +807,29 @@ footer
 {
   justify-content:flex-start; 
   width: auto;
-
 }
-
 
 .colonne1 ul, .colonne2 ul, .colonne3 ul
 {
   text-align: left;
   padding:0px;
-  
 } 
+
 .colonne1 li, .colonne2 li, .colonne3 li
 {
 list-style-type:none;
-
 font-size: 15px;
 font-family: ralewayextralight;
 padding-top:5px;
 margin-top:5px;
-background-color: ;
-
-
 }
+
 .colonne1 li strong, .colonne2 li strong, .colonne3 li strong
 {
 font-size: 17px;
 font-family: ralewayextrabold;
-
-
 }
+
 .fin ul :hover
 {
 color:blue;
@@ -902,71 +860,69 @@ a
 }
 #bloc_page
 {
-  width: 375px;
+  max-width: 375px;
  margin: 0 auto;
  padding: 0px;
- background-color: ;
-
 }
 
       body
       {
-      width: 375px;
+      max-width: 375px;
       margin: 0px;
       margin: 0 auto;
-      background-color: ;
-      }
-
-      @bloc_page
-      {
-        display: flex;
-        height: 4900px;
       }
 
       header h2
       {
-        background-color: ;
-        width: 310px;  
+        max-width: 310px;  
         margin-top: 30px;
         margin-left:auto;
-        margin-right: auto;
+        margin-right:auto;
+        padding-left:20px; 
+      padding-right:20px;
       }
       h3
       {
-        width: 310px;
-        margin-left:auto;
-        margin-right: auto;
-
-        background-color: ;
+      max-width:310px;
+      margin-left:auto;
+      margin-right:auto;
+      padding-left:20px; 
+      padding-right:20px;
       }
+
       .Menu
       {
       flex-direction:column;
-      background-color: ;
       display: none;
       }
+
       .Menu2
       {
+       width: 100%;
         display: flex;
         flex-wrap:wrap;
       }
+
       .Menu2 .R
       {
-        width: 187.5px;
+        width: 50%;
         height: 50px;
       }
+
       .R img
       {
         width:100px;
         height: 50px;
         padding-top: 10px;
-        padding-left: 30px;
+        padding-left:15%;
       }
+
       .SS2
       {
-        width: 187.5px;
+        width: 50%;
         height: 50px;
       }
+
       .SS2 p
       {
         text-align: right;
@@ -975,13 +931,15 @@ a
         font-family: ralewayextrabold;
         color:#0065FC
       }
+
       .H
       {
-       width: 187.5px; 
+       width: 50%; 
         height: 40px;
         border-bottom: 2px solid #0065FC;
         padding-top: 10px;
       }
+
       .H p
       {
         text-align: center; 
@@ -989,103 +947,122 @@ a
         font-size: 15px;
 
       }
+
       .A
       {
-        width: 187.5px;
+        width: 50%;
         border-bottom: 2px solid #F2F2F2;
         height: 40px;
         padding-top: 10px;
       }
+
       .A p
       {
         text-align: center; 
         font-size: 15px;
       }
 
-
       form
       {
-        width: 310px;
+      width: 90%;
       margin-left:auto; 
       margin-right:auto;
       }
+
+      form p
+      {
+      width: 100%;
+      }
+
       input
       {
-        width: 205px;
+      width: 75%;
       }
+
       .bouton
       {
-        display: none;
+      display: none;
       }
+
       form span
       {
       visibility:visible;
       }
+
       .filtres
       {
-        width: 310px;
-        margin-left: auto;
-        margin-right:auto;
+      width: 85%;
+      margin-left: auto;
+      margin-right:auto;
       }
+
+      .F
+      {
+      width: 150px;
+      }
+
       .filtres span
       {
-        width: 150px;
+      width: 150px;
       }
 
       .filtres ul
       { 
-        margin-left: 0px;
-        background-color: ;
-        width: 310px;
-        height: 240px;
-        margin-left:0px;
-        padding-left: 0px;
-
+      height: 240px;
+      margin-left:0px;
+      margin-right:0px;
+      margin-top:0px;
+      padding-left: 0px;
+      flex-wrap:wrap;
       }
 
        .filtres li
       {
-        background-color: ;
-        height: 50px;
-        margin-left:0px;
-
-        justify-content:flex-start;
+      height: 50px;
+      margin-left:0px;
+      justify-content:flex-start;
       }
 
       .info
       { 
-        background-color: ;
-        width:310px;
-        margin-right:auto;
-        margin-left: auto;
+      width:auto;
+      margin-right:auto;
+      margin-left: auto;
       }
+
       .info p
       {
       font-size: 14px;
       }
+
       .hebergement
       {
-        
+      width: 100%;
+      margin-left:auto;
+      margin-right:auto;
       }
+
       .conteneur1
       {
-       margin: 0px;
-       padding:0px;
+      width: auto;
+      margin: 0px;
+      padding:0px;
       }
        
       .GAUCHE:nth-child(1)
       {
+        width: 100%;
         background-color: white;
         border:1px solid white;
-        width:375px;
+        max-width:100%;
         flex-direction:column;
-        order:;
+        margin-left:auto;
+        margin-right:auto;
       }
 
       .GAUCHE h2
       {
-        background-color: ;
-        width: 310px;
+        width: auto;
         margin-left:auto;
         margin-right: auto;
         margin-bottom: 20px;
@@ -1096,54 +1073,55 @@ a
       {
         display: flex;
         flex-direction:column;
-        width: 375px;
-        margin: 0px;
-        background-color: ;
+        width: 100%;
+        margin: 0px; 
       }
 
       .conteneur1 img
       {
-        width: 305px;
+        width: 100%;
       }
 
       .conteneur1 figure
       {
-        
         padding: 3px;
         margin-top: 0px;
         margin-bottom:20px ;
-        margin-left: auto; 
-        margin-right: auto;
-        width: 305px;
-       
-        
+        width: 85%;
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      .rangée1, .rangée2, .rangée3
+      {
+       width: 100%;
       }
 
       .GAUCHE .texte3 span
       {
         margin-left: 35px;
         margin-right: auto;
-        background-color: ;
       }
+
       .rangée1bis
       {
         margin-top: 0px;
+        padding-left:0px;
+        padding-right:0px;
       }
+
       .DROITE:nth-child(2)
       {
-        width: 375px;
+        width: 100%;
         border-radius: 0px;
-        order:;
         background-color: #F2F2F2;
         margin-left: auto; 
         margin-right: auto;
       }
 
-
       .DROITE h2
       {
-       background-color: ;
-       width: 310px;
+       width: auto;
        margin-left:auto;
        margin-right: auto;
        margin-bottom: 20px;
@@ -1153,71 +1131,84 @@ a
       .DROITE h2 i
       {
         margin-left: 100px;
-        background-color: ;
       }
 
       .coté1, .coté2, .coté3
       {
-       width: 300px;
-       height: 120px;
-       margin-left:auto;
-       margin-right:auto;
-       background-color: white;
+      width: 85%;
+      height: 25%;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: white;
       }
 
       .coté1 img, .coté2 img, .coté3 img
       {
-        width: 120px;
-        height: 120px;
+      width: 120px;
+      height: 130px;
+      }
+      .coté1 figure, .coté2 figure, .coté3 figure
+      {   
+      margin-top: 0px;
+      margin:0px
       }
 
       .activité
       {
-       background-color: ;
-       width: 370px;
+       width: 100%;
       }
 
       .activité h2
       {
-       background-color: ;
-       width: 310px;
-       margin-top: 40px;
-       margin-bottom: 20px;
-       margin-left:auto;
-       margin-right: auto;
-       font-size: 18px; 
+      width: auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      margin-left:auto;
+      margin-right: auto;
+      font-size: 18px; 
       }
 
       .Marseille
       {
-       display: flex;
-       flex-direction:column;
-       background-color: ;
+      display: flex;
+      flex-direction:column;
+      width: auto;
       }
 
       .Marseille img
       {
-       width: 310px;
-       height: 140px;
+      width: 100%;
+      height: 140px;
       }
       .Marseille figure 
       {
-        width: 310px;
-        margin-top: 0px;
+      width: 85%;
+      margin-top: 0px;
+      margin-left: auto; 
+      margin-right: auto;
       }
 
       .Photo_Marseille1, .Photo_Marseille2, .Photo_Marseille3, .Photo_Marseille4
       {   
-       margin-left: auto; 
-       margin-right: auto; 
+      width: 100%;
+      margin-left: auto; 
+      margin-right: auto;
       }
 
-      .Photo_Marseille2 .Pomegues, .Photo_Marseille3 .PNC, .Photo_Marseille4 .NDG  
+      footer
       {
-       margin-left: auto; 
-       margin-right: auto;
+        max-width: 375px;
+      }
+
+      .fin
+      {
+        flex-direction:column;
+        margin-left:30px;
+        margin-right:30px;
+        max-width: 375px;
       }
      
+   /**  
 
       footer
       {
@@ -1230,21 +1221,20 @@ a
       }
       .colonne1 ul, .colonne2 ul, .colonne3 ul
       {
-      width:310px ;
+      width:auto;
       height:150px ;
       margin-left:auto;
       margin-right: auto;
       }
-
+**/
 
 }
-
 
  @media screen and (min-width: 899px) and (max-width: 900px) 
 {
     #bloc_page
     {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 2px;
     }
@@ -1260,15 +1250,14 @@ a
     width: 900px
     }
 
-    .Menu img
+    .Menu 
     {
-     
+     width:830px;
     }
 
     .Menu nav
     {
     justify-content:flex-start;
-    margin-left: 320px;
     }
 
     header h2
@@ -1303,16 +1292,20 @@ a
 
     .hebergement
     {
-      flex-direction:column;
+    flex-direction:column;
     }
 
     .GAUCHE:nth-child(1)
     {
       margin: 10px 0px 0px 0px;
       width: 892px;
-      height: 548px;
+      
       flex-direction:column;
       order:2;
+    }
+    .GAUCHE h2
+    {
+      margin-left:40px;
     }
 
     .conteneur1
@@ -1323,14 +1316,16 @@ a
     .texte3 span
     {
       margin-top: 690px;
+      margin-left:40px;
     }
 
     .DROITE:nth-child(2)
     {
-     background-color: ;
      height:300px;
      width:896px;
      margin: 20px 0px 0px 0px;
+     padding-right: 0px;
+     padding-left: 0px;
      order:1;
     }
 
@@ -1347,13 +1342,13 @@ a
    
     .rangée1bis
     {
-      display: flex;
-      margin-left: 0px;
+    display: flex;
+    margin-left: 0px;
     }
 
     .rangée1bis img
     {
-    height: 120px
+    height: 125px
     }
 
     .coté1
@@ -1371,13 +1366,13 @@ a
     height: 125px;
     padding: 3px
     }
+
     .coté3
     {
     margin:0px 0px 0px 0px; 
     width: 270px;
     height: 125px;
-    padding: 3px;
-    text-align: 
+    padding: 3px; 
     }
 
     .coté1 i
@@ -1395,10 +1390,6 @@ a
     margin: 0px 0px 0px 0px;
     }
 
-    .coté1 p
-    {
-    }
-
     p [alt="star"]
     {
     color: #F2F2F2;
@@ -1408,8 +1399,8 @@ a
 
     .activité h2
     {
-      margin-left:31px;
-      width: 400px;
+    margin-left:40px;
+    width: 400px;
     }
 
     .activité
@@ -1417,7 +1408,6 @@ a
     margin-top: 0px;
     width: auto;
     height: auto;  
-    background-color: ;
     }
 
     .activité img
@@ -1466,62 +1456,4 @@ a
     margin-top: 0px;
     width: 900px;
     }
-
-     .colonne1, .colonne2, .colonne3      
-    {
-  
-    }
-
-
 }
-
-
-@media screen and (max-width: 1524px)   
- {
-    
-   #bloc_page
-{
-  width: auto;
-  margin: 0 auto;
-  background-color:;
-  padding-left: auto;
-  padding-right: auto;
-}
-header
-{
-}
-.Menu
-{
-  
-}
-.Menu nav
-{ 
- 
-
-}
-
-
-
-
-
-
-
-
-
-{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-}
-    
