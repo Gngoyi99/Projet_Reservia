@@ -632,12 +632,12 @@ font-family: ralewayextrabold;
 
 .PP
 {
-  padding-left: 40px;
+  padding-left: 0px;
 }
 .chartline
 {
   width:auto;
-  padding-right: 40px;
+  padding-right: 0px;
   margin-top:40px;
 }
 
@@ -1063,10 +1063,9 @@ a
       .GAUCHE h2
       {
         width: auto;
-        margin-left:auto;
-        margin-right: auto;
+        margin-left:25px;
         margin-bottom: 20px;
-        font-size: 18px; 
+        font-size: 20px; 
       }
 
       .conteneur1 
@@ -1099,7 +1098,7 @@ a
 
       .GAUCHE .texte3 span
       {
-        margin-left: 35px;
+        margin-left: 25px;
         margin-right: auto;
       }
 
@@ -1125,7 +1124,11 @@ a
        margin-left:auto;
        margin-right: auto;
        margin-bottom: 20px;
-       font-size: 18px; 
+       font-size: 20px; 
+      }
+      .PP
+      {
+        padding-left:25px;
       }
 
       .DROITE h2 i
@@ -1163,9 +1166,8 @@ a
       width: auto;
       margin-top: 40px;
       margin-bottom: 20px;
-      margin-left:auto;
-      margin-right: auto;
-      font-size: 18px; 
+      margin-left:25px;
+      font-size: 20px; 
       }
 
       .Marseille
@@ -1457,3 +1459,20 @@ a
     width: 900px;
     }
 }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
