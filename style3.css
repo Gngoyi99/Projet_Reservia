@@ -1058,6 +1058,7 @@ a
         flex-direction:column;
         margin-left:auto;
         margin-right:auto;
+        border-radius:0px;
       }
 
       .GAUCHE h2
