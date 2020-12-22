@@ -119,7 +119,6 @@
 
 
 
-
 #bloc_page
 {
   max-width: 1354px;
@@ -364,6 +363,7 @@ nav ul
 nav li 
 {
   margin-left: 30px; 
+  padding-top: 10px;
 }
 
 nav span
@@ -423,7 +423,7 @@ nav a
   color: #181818;
   text-decoration: none;
   justify-content:space-between;
-  margin-top: 35px;
+  margin-top:35px;
   padding: 10px;
 }
 
@@ -432,7 +432,7 @@ nav ul:hover
   border-top: 3px solid white;
 }
 
-.bleu
+nav li:hover
 {
   border-top: 3px solid #0065FC;
   text-align: center;
@@ -789,18 +789,20 @@ footer
 {
  
   height:auto;
-  background-color: #F2F2F2;
-  max-width: 100%;
-  padding-left:0px; 
+  background-color:#F2F2F2;
+  width:100%;
+
 }
+
 .fin
 {
-  margin: 0 auto;
+  margin:0 auto;
   display:flex;
-  max-width: 1354px;
+  max-width:1354px;
   justify-content:space-between;
-  flex-wrap:wrap;
-  
+  flex-wrap:wrap; 
+  padding-left:3%; 
+  padding-right:3%;
 }
 
 .colonne1, .colonne2, .colonne3
@@ -838,8 +840,8 @@ color:blue;
 /*Lien-Cliquable*/  
 a
 {
-  color: black;
-  text-decoration: none;
+color: black;
+text-decoration: none;
 }
 
 
@@ -1040,6 +1042,7 @@ a
       width: 100%;
       margin-left:auto;
       margin-right:auto;
+      background-color:#F2F2F2;
       }
 
       .conteneur1
@@ -1131,10 +1134,14 @@ a
       {
         padding-left:25px;
       }
-
-        .chartline
+      .chartline
       {
         margin-right: 25px;
+      }
+
+      .DROITE h2 i
+      {
+        
       }
 
       .coté1, .coté2, .coté3
