@@ -118,7 +118,6 @@
 
 
 
-
 #bloc_page
 {
   max-width: 1354px;
@@ -973,12 +972,12 @@ text-decoration: none;
 
       form p
       {
-      width: 100%;
+      width: 95%;
       }
 
       input
       {
-      width: 75%;
+      width: 81%;
       }
 
       .bouton
@@ -989,6 +988,11 @@ text-decoration: none;
       form span
       {
       visibility:visible;
+      width:45px;
+      }
+      form span i
+      {
+       margin-left:13px;
       }
 
       .filtres
@@ -1014,7 +1018,9 @@ text-decoration: none;
       margin-left:0px;
       margin-right:0px;
       margin-top:0px;
+      margin-bottom: 10px;
       padding-left: 0px;
+
       flex-wrap:wrap;
       }
 
@@ -1030,6 +1036,7 @@ text-decoration: none;
       width:auto;
       margin-right:auto;
       margin-left: auto;
+      margin-bottom:30px;
       }
 
       .info p
