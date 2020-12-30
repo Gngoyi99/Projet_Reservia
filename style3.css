@@ -481,6 +481,10 @@ display: flex;
 justify-content:space-between;
 flex-wrap:wrap-reverse;
 }
+.hebergement h2
+{
+  display: none;
+}
 
 .GAUCHE h2
 {
