@@ -481,11 +481,6 @@ display: flex;
 justify-content:space-between;
 flex-wrap:wrap-reverse;
 }
-.hebergement h2
-{
-  display: none;
-}
-
 .GAUCHE h2
 {
  margin: 40px 0px 0px 55px;
@@ -708,6 +703,8 @@ padding-left:10px;
 {
   color:#F2F2F2;
 }
+
+
 /*Section activité*/
 
 .activité
@@ -1120,17 +1117,19 @@ text-decoration: none;
       .rangée1bis
       {
         margin-top: 0px;
+        margin-bottom: 0px;
         padding-left:0px;
         padding-right:0px;
       }
 
       .DROITE:nth-child(2)
       {
-        width: 100%;
+        width: 375px;
+        max-width:100%;
         border-radius: 0px;
         background-color: #F2F2F2;
-        margin-left: auto; 
-        margin-right: auto;
+        padding-left:0px;
+        padding-right:0px;
       }
 
       .DROITE h2
@@ -1159,10 +1158,13 @@ text-decoration: none;
       {
       width: 85%;
       height: 25%;
-      margin-left:auto;
-      margin-right:auto;
       background-color: white;
       }
+      .coté1 i, .coté2 i, .coté3 i
+      {
+      margin-top:55px;
+      
+      } 
 
       .coté1 img, .coté2 img, .coté3 img
       {
@@ -1177,7 +1179,7 @@ text-decoration: none;
 
       .activité
       {
-       width: 100%;
+       max-width:375px;
       }
 
       .activité h2
