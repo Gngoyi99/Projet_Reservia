@@ -481,7 +481,7 @@ display: flex;
 justify-content:space-between;
 flex-wrap:wrap-reverse;
 }
-.G i
+.G 
 {
  display:none
 }
@@ -703,7 +703,7 @@ padding-left:10px;
   color: #0065FC ;
 } 
 
-.hebergement_populaire .grey
+.hebergement_populaire .grey i
 {
   color:#F2F2F2;
 }
